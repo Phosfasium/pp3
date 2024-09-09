@@ -351,6 +351,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 652673779}
+  - component: {fileID: 652673780}
+  - component: {fileID: 652673781}
+  - component: {fileID: 652673782}
   m_Layer: 0
   m_Name: LightMidiControll
   m_TagString: Untagged
@@ -373,6 +376,42 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &652673780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652673777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 558399de23373eb4b89d26567fb268f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &652673781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652673777}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076efd26efb89774f96b48fed766ecfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &652673782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652673777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c034c64dd177cee46a623ae7f73d4c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &704392010
 GameObject:
   m_ObjectHideFlags: 0
@@ -516,7 +555,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 704392016}
   moveSpeed: 5
-  sizeChange: {fileID: 704392014}
 --- !u!50 &704392016
 Rigidbody2D:
   serializedVersion: 4
