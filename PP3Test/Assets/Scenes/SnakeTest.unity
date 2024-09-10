@@ -595,7 +595,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Actions: {fileID: -944628639613478452, guid: a7f797e119550254e8ca62e833445e73, type: 3}
-  m_NotificationBehavior: 0
+  m_NotificationBehavior: 2
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
     m_PersistentCalls:
@@ -606,7 +606,131 @@ MonoBehaviour:
   m_ControlsChangedEvent:
     m_PersistentCalls:
       m_Calls: []
-  m_ActionEvents: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 6b0773c1-b74d-4651-b779-e964efb47386
+    m_ActionName: Player/Move[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 4d07796e-a7f5-49fa-8794-fbc8ed6451f6
+    m_ActionName: Player/Look[/Mouse/delta]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 36a99060-6407-474d-8519-75e2b50ae207
+    m_ActionName: Player/Fire[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f7fa4e80-cbfd-4981-ad03-d5b184e652a1
+    m_ActionName: UI/Navigate[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2fffc8d7-89c0-4f39-a36a-6c1c9f7ea1d4
+    m_ActionName: UI/Submit[/Keyboard/enter]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: eacddddc-b043-4c30-bfb9-72eba5e60a21
+    m_ActionName: UI/Cancel[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f38e54a0-542c-4849-a4d1-de5e50d79c75
+    m_ActionName: UI/Point[/Mouse/position]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 6331fad9-c023-4bb3-b4bb-1760015d5973
+    m_ActionName: UI/Click[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 025309eb-30c5-4d29-babf-c2a3aacc7022
+    m_ActionName: UI/ScrollWheel[/Mouse/scroll]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c478458e-636d-45ec-bb85-ddfd44fe3383
+    m_ActionName: UI/MiddleClick[/Mouse/middleButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 8bb0a72d-e943-4425-a81e-2cd8cf200981
+    m_ActionName: UI/RightClick[/Mouse/rightButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d77ab6b7-943b-4722-a086-ebcb3db0b10b
+    m_ActionName: UI/TrackedDevicePosition
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 608c340b-1e39-43b0-b280-93cab77f4c4a
+    m_ActionName: UI/TrackedDeviceOrientation
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 08456ff4-9842-40de-b621-1fc1bbdceede
+    m_ActionName: APCMini/1-1[/MidiDevice/note056]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 01dcfa59-987f-4b77-b9bd-e11a5ac92d60
+    m_ActionName: APCMini/1-2[/MidiDevice/note057]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: bc8cab9f-aa48-465f-b6ac-d3d7093a6a03
+    m_ActionName: APCMini/1-3[/MidiDevice/note058]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 6053b4f1-0ba0-4ce2-b594-fa64993966e1
+    m_ActionName: APCMini/1-4[/MidiDevice/note059]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b3a5bf0f-eb5e-4787-b121-e1b1d2296b9a
+    m_ActionName: APCMini/1-5[/MidiDevice/note060]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: be8c656f-4cb4-4f9d-936a-30e4c683f409
+    m_ActionName: APCMini/1-6[/MidiDevice/note061]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 6fadac1a-e406-4b36-bd31-f2d716a98895
+    m_ActionName: APCMini/1-7[/MidiDevice/note062]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 7b5b6d5c-0fb3-4e2e-b7e9-3ac4923de680
+    m_ActionName: APCMini/1-8[/MidiDevice/note063]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 60d3264e-3fbf-42e4-b5af-3c223d09f9e2
+    m_ActionName: APCSliders/Slider1[/MidiDevice/control048]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 07dc0bef-7973-4b3f-80b7-098df400b1fd
+    m_ActionName: APCSliders/Slider2[/MidiDevice/control049]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: aeb6eb64-1fea-44ab-9f2e-7d99625fb525
+    m_ActionName: APCSliders/Slider3[/MidiDevice/control050]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 78338f35-9b6a-45f1-98e8-a50ad8f876cf
+    m_ActionName: APCSliders/Slider4[/MidiDevice/control051]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 613c4378-fe55-40bf-b5c5-60e41aed71d2
+    m_ActionName: APCSliders/Slider5[/MidiDevice/control052]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 60739ef4-aa72-464a-a7ac-bbb38095b612
+    m_ActionName: APCSliders/Slider6[/MidiDevice/control053]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 943c51bc-a3a8-4909-863c-82719eeddf29
+    m_ActionName: APCSliders/Slider7[/MidiDevice/control054]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 08531018-5948-4366-a38f-b36d413754a1
+    m_ActionName: APCSliders/Slider8[/MidiDevice/control055]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2c85672d-9651-45b9-b107-dd9894317ffb
+    m_ActionName: APCSliders/Slider9[/MidiDevice/control056]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 84deb32a-fa65-451a-b1c0-e8dd7c3ee785
+    m_ActionName: APCMovement/MidiMove[/MidiDevice/note064,/MidiDevice/note065,/MidiDevice/note066,/MidiDevice/note067,/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player

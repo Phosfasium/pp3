@@ -847,6 +847,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "2-1",
+                    "type": "Button",
+                    "id": "ace44bb6-9d24-4c27-bdb7-93890abe0c48",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -935,6 +944,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "1-8",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "38a02e33-2d7d-42da-af26-fe50488b3b2f",
+                    "path": "<MidiDevice>/note048",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "2-1",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -1144,7 +1164,7 @@
             ],
             "bindings": [
                 {
-                    "name": "Midimove",
+                    "name": "Midimovement2d",
                     "id": "76f99b8c-9196-49b1-95e1-5166d36220ba",
                     "path": "2DVector",
                     "interactions": "",
@@ -1191,6 +1211,61 @@
                     "name": "right",
                     "id": "3d82fe5a-c642-40f4-a931-5bb587085ad1",
                     "path": "<MidiDevice>/note067",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MidiMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Keyboard",
+                    "id": "9fc5f08b-3dae-486f-871b-a1737749dcc2",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MidiMove",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "f28dd8c4-8ef7-47ad-87c1-727fe08675b9",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MidiMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "2f2e7c3c-f90d-404c-8bca-5e3827c2aacd",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MidiMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "e7ed7b66-ac43-4eac-a6ba-349e957de45d",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MidiMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "b0ceaf3b-625c-496b-817e-82c20ef20025",
+                    "path": "<Keyboard>/rightArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
