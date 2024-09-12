@@ -799,7 +799,7 @@ public partial class @PlayerControllsTest: IInputActionCollection2, IDisposable
             ""id"": ""2375e94f-9bf8-4936-b7c5-1913c0f87286"",
             ""actions"": [
                 {
-                    ""name"": ""1-1"",
+                    ""name"": ""Button0,0"",
                     ""type"": ""Button"",
                     ""id"": ""08456ff4-9842-40de-b621-1fc1bbdceede"",
                     ""expectedControlType"": ""Button"",
@@ -808,7 +808,7 @@ public partial class @PlayerControllsTest: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""1-2"",
+                    ""name"": ""Button0,1"",
                     ""type"": ""Button"",
                     ""id"": ""01dcfa59-987f-4b77-b9bd-e11a5ac92d60"",
                     ""expectedControlType"": ""Button"",
@@ -817,7 +817,7 @@ public partial class @PlayerControllsTest: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""1-3"",
+                    ""name"": ""Button0,2"",
                     ""type"": ""Button"",
                     ""id"": ""bc8cab9f-aa48-465f-b6ac-d3d7093a6a03"",
                     ""expectedControlType"": ""Button"",
@@ -826,7 +826,7 @@ public partial class @PlayerControllsTest: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""1-4"",
+                    ""name"": ""Button0,3"",
                     ""type"": ""Button"",
                     ""id"": ""6053b4f1-0ba0-4ce2-b594-fa64993966e1"",
                     ""expectedControlType"": ""Button"",
@@ -835,7 +835,7 @@ public partial class @PlayerControllsTest: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""1-5"",
+                    ""name"": ""Button0,4"",
                     ""type"": ""Button"",
                     ""id"": ""b3a5bf0f-eb5e-4787-b121-e1b1d2296b9a"",
                     ""expectedControlType"": ""Button"",
@@ -844,7 +844,7 @@ public partial class @PlayerControllsTest: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""1-6"",
+                    ""name"": ""Button0,5"",
                     ""type"": ""Button"",
                     ""id"": ""be8c656f-4cb4-4f9d-936a-30e4c683f409"",
                     ""expectedControlType"": ""Button"",
@@ -853,7 +853,7 @@ public partial class @PlayerControllsTest: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""1-7"",
+                    ""name"": ""Button0,6"",
                     ""type"": ""Button"",
                     ""id"": ""6fadac1a-e406-4b36-bd31-f2d716a98895"",
                     ""expectedControlType"": ""Button"",
@@ -862,7 +862,7 @@ public partial class @PlayerControllsTest: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""1-8"",
+                    ""name"": ""Button0,7"",
                     ""type"": ""Button"",
                     ""id"": ""7b5b6d5c-0fb3-4e2e-b7e9-3ac4923de680"",
                     ""expectedControlType"": ""Button"",
@@ -871,9 +871,504 @@ public partial class @PlayerControllsTest: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""2-1"",
+                    ""name"": ""Button1,0"",
                     ""type"": ""Button"",
                     ""id"": ""ace44bb6-9d24-4c27-bdb7-93890abe0c48"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button1,1"",
+                    ""type"": ""Button"",
+                    ""id"": ""c4a711f3-5e1e-47ff-92d2-13d44dc15a72"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button1,2"",
+                    ""type"": ""Button"",
+                    ""id"": ""92c244cc-a381-442b-98a1-d55dab8262c1"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button1,3"",
+                    ""type"": ""Button"",
+                    ""id"": ""c4ba7a5e-d439-4e4f-bdba-e7d5302d5d78"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button1,4"",
+                    ""type"": ""Button"",
+                    ""id"": ""c0a0bd50-89f6-4dfd-8899-30b241f7aff0"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button1,5"",
+                    ""type"": ""Button"",
+                    ""id"": ""9d9587a5-1294-4371-af06-c7d774da1291"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button1,6"",
+                    ""type"": ""Button"",
+                    ""id"": ""1f09fc34-9010-42c0-8f13-4bcbc481825a"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button1,7"",
+                    ""type"": ""Button"",
+                    ""id"": ""0020b68f-d6b8-47ea-9665-6b5fe237d9fd"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button2,0"",
+                    ""type"": ""Button"",
+                    ""id"": ""90cb46e1-b6de-482f-8e5c-20f143da59cb"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button2,1"",
+                    ""type"": ""Button"",
+                    ""id"": ""af775183-edf2-4c1b-907c-64613ce3fdd5"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button2,2"",
+                    ""type"": ""Button"",
+                    ""id"": ""256ee4d0-1c5f-4b02-aa32-f300143c1c17"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button2,3"",
+                    ""type"": ""Button"",
+                    ""id"": ""8a1f505f-419d-4848-a937-8c845aa34de0"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button2,4"",
+                    ""type"": ""Button"",
+                    ""id"": ""7d27ee7b-14c9-4a5e-af57-c960d0294c24"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button2,5"",
+                    ""type"": ""Button"",
+                    ""id"": ""3081751f-8213-47cc-8cc3-b7d3efec99ef"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button2,6"",
+                    ""type"": ""Button"",
+                    ""id"": ""bd630581-293b-40c8-8883-aa525bda1fdc"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button2,7"",
+                    ""type"": ""Button"",
+                    ""id"": ""de39e706-f855-41b1-9904-3c7ea9557b2a"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button3,0"",
+                    ""type"": ""Button"",
+                    ""id"": ""d899ea8a-3786-4a25-82c0-1114bea0796e"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button3,1"",
+                    ""type"": ""Button"",
+                    ""id"": ""81e33f46-565e-4e78-97aa-444f8d1d423a"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button3,2"",
+                    ""type"": ""Button"",
+                    ""id"": ""6e46d9c7-512c-45f5-8e25-da76b78d5da6"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button3,3"",
+                    ""type"": ""Button"",
+                    ""id"": ""4472c4bd-6b49-4bbc-833a-e63cab73a261"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button3,4"",
+                    ""type"": ""Button"",
+                    ""id"": ""456af4d3-8dee-4159-b006-80bc2fadf1a7"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button3,5"",
+                    ""type"": ""Button"",
+                    ""id"": ""e3bf1715-35a6-426c-b737-f268595226c1"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button3,6"",
+                    ""type"": ""Button"",
+                    ""id"": ""d8c38787-f365-4e2a-95db-aa70ffa09e03"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button3,7"",
+                    ""type"": ""Button"",
+                    ""id"": ""96d729d4-abd9-48d9-993f-5f525c526185"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button4,0"",
+                    ""type"": ""Button"",
+                    ""id"": ""a7b7b2c5-bf6f-402a-8b9a-e10e73960898"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button4,1"",
+                    ""type"": ""Button"",
+                    ""id"": ""e812fcd5-9081-4089-b7d0-987d30d8131c"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button4,2"",
+                    ""type"": ""Button"",
+                    ""id"": ""3a649cb6-f6b9-4cf5-a7bf-8ded0ba57839"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button4,3"",
+                    ""type"": ""Button"",
+                    ""id"": ""96985374-44c3-41fe-9d40-93cc59a7cb8d"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button4,4"",
+                    ""type"": ""Button"",
+                    ""id"": ""1886c04d-6e2a-4b5c-8d03-36a55da316ae"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button4,5"",
+                    ""type"": ""Button"",
+                    ""id"": ""93dfc2d0-c34f-4c53-8b5f-f218afb1bf1d"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button4,6"",
+                    ""type"": ""Button"",
+                    ""id"": ""406c50cc-5db0-4f94-9f72-ec9c9af06ec7"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button4,7"",
+                    ""type"": ""Button"",
+                    ""id"": ""2386d702-95a5-42b5-8e69-c989f731e946"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button5,0"",
+                    ""type"": ""Button"",
+                    ""id"": ""5ea54fa6-8a6c-41ae-b8aa-691ac2b4d9f9"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button5,1"",
+                    ""type"": ""Button"",
+                    ""id"": ""641416c5-466c-47ec-bfab-9c8c8aea616b"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button5,2"",
+                    ""type"": ""Button"",
+                    ""id"": ""7957da3f-836a-447e-9fe9-93cef6edbdc2"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button5,3"",
+                    ""type"": ""Button"",
+                    ""id"": ""8f91e64a-61d8-4c42-b370-5e5f397fafc8"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button5,4"",
+                    ""type"": ""Button"",
+                    ""id"": ""6edd14b8-290a-4e87-9777-a4ee44fea438"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button5,5"",
+                    ""type"": ""Button"",
+                    ""id"": ""83133164-552a-4b2d-982c-c626f500e461"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button5,6"",
+                    ""type"": ""Button"",
+                    ""id"": ""bbffa428-6950-4a1f-8211-e27c1797112c"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button5,7"",
+                    ""type"": ""Button"",
+                    ""id"": ""81e11199-fa34-4b4c-8a2c-26c686bc45ee"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button6,0"",
+                    ""type"": ""Button"",
+                    ""id"": ""11b13c19-7cb7-4d08-9cd4-a51ae3414f44"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button6,1"",
+                    ""type"": ""Button"",
+                    ""id"": ""bcfd8fb2-e46f-470f-b491-c9b0174dc345"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button6,2"",
+                    ""type"": ""Button"",
+                    ""id"": ""7bc34f0f-4633-4f29-844b-143179279f0a"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button6,3"",
+                    ""type"": ""Button"",
+                    ""id"": ""4a8d9c18-583b-4ba6-905c-f2013013f198"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button6,4"",
+                    ""type"": ""Button"",
+                    ""id"": ""c6a894ec-e185-495f-9373-ea02331a8cb3"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button6,5"",
+                    ""type"": ""Button"",
+                    ""id"": ""6482ea85-7e94-43cf-96db-5321e8b88106"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button6,6"",
+                    ""type"": ""Button"",
+                    ""id"": ""afa84eb9-f060-45f1-a1a3-d89c866c5874"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button6,7"",
+                    ""type"": ""Button"",
+                    ""id"": ""a4938420-f19b-4ba7-8e2b-c002bfcbc021"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button7,0"",
+                    ""type"": ""Button"",
+                    ""id"": ""48b608f4-7a9a-4599-bbf7-024587fa7c23"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button7,1"",
+                    ""type"": ""Button"",
+                    ""id"": ""c1eba719-70ba-4498-bc90-1322b336b746"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button7,2"",
+                    ""type"": ""Button"",
+                    ""id"": ""1c53a86f-ebe8-40a1-b7be-6da156327db8"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button7,3"",
+                    ""type"": ""Button"",
+                    ""id"": ""31991751-e5f4-4805-b4c7-a32f9fef16d8"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button7,4"",
+                    ""type"": ""Button"",
+                    ""id"": ""c1dddc92-d7da-4aa9-a37e-e504e37eb8da"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button7,5"",
+                    ""type"": ""Button"",
+                    ""id"": ""705441a2-71cd-406c-845f-b66f859b0e38"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button7,6"",
+                    ""type"": ""Button"",
+                    ""id"": ""cb15508e-7fcf-4aa1-93d8-8a4b673395c0"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button7,7"",
+                    ""type"": ""Button"",
+                    ""id"": ""ed08b9b0-bafb-4a77-9ea8-39d5550daea3"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -884,99 +1379,704 @@ public partial class @PlayerControllsTest: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""4a494323-1b84-4e94-8462-d29269cd5c70"",
-                    ""path"": ""<MidiDevice>/note056"",
+                    ""path"": ""<MidiDevice>/note000"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""1-1"",
+                    ""action"": ""Button0,0"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
                     ""id"": ""54594053-59ca-4961-b831-b0172e766d79"",
-                    ""path"": ""<MidiDevice>/note057"",
+                    ""path"": ""<MidiDevice>/note001"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""1-2"",
+                    ""action"": ""Button0,1"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
                     ""id"": ""f3fd959e-ebe6-45d5-b825-67dbf76478d6"",
-                    ""path"": ""<MidiDevice>/note058"",
+                    ""path"": ""<MidiDevice>/note002"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""1-3"",
+                    ""action"": ""Button0,2"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
                     ""id"": ""4af05562-bd71-484b-9d37-1445feb4c2b3"",
-                    ""path"": ""<MidiDevice>/note059"",
+                    ""path"": ""<MidiDevice>/note003"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""1-4"",
+                    ""action"": ""Button0,3"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
                     ""id"": ""2a3ba804-699f-4fe8-a345-8deadb551935"",
-                    ""path"": ""<MidiDevice>/note060"",
+                    ""path"": ""<MidiDevice>/note004"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""1-5"",
+                    ""action"": ""Button0,4"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
                     ""id"": ""bccbe4a0-492d-4c8b-aa3b-623941c7088d"",
-                    ""path"": ""<MidiDevice>/note061"",
+                    ""path"": ""<MidiDevice>/note005"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""1-6"",
+                    ""action"": ""Button0,5"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
                     ""id"": ""6e3699bb-a8de-457e-9dde-480ec7bec008"",
-                    ""path"": ""<MidiDevice>/note062"",
+                    ""path"": ""<MidiDevice>/note006"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""1-7"",
+                    ""action"": ""Button0,6"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
                     ""id"": ""e8900be6-326c-40db-95ac-eb6122952ef5"",
-                    ""path"": ""<MidiDevice>/note063"",
+                    ""path"": ""<MidiDevice>/note007"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""1-8"",
+                    ""action"": ""Button0,7"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
                     ""id"": ""38a02e33-2d7d-42da-af26-fe50488b3b2f"",
+                    ""path"": ""<MidiDevice>/note008"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button1,0"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""73b4ec82-34ed-4ff4-8808-713e45661a2e"",
+                    ""path"": ""<MidiDevice>/note009"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button1,1"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""61266275-e2c6-4202-b383-e4a525e90e88"",
+                    ""path"": ""<MidiDevice>/note010"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button1,2"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""51878e04-6dde-44d3-bfd9-c538ff955715"",
+                    ""path"": ""<MidiDevice>/note011"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button1,3"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0c265c61-6649-4bb4-9461-3177efa88d4a"",
+                    ""path"": ""<MidiDevice>/note012"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button1,4"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e1d916b1-811d-42f0-b16a-9491dc492f01"",
+                    ""path"": ""<MidiDevice>/note013"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button1,5"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""c0015008-bca1-41d3-913b-f45c57b048ae"",
+                    ""path"": ""<MidiDevice>/note014"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button1,6"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""02412298-0d71-4e9d-8a1b-a59dc400caf9"",
+                    ""path"": ""<MidiDevice>/note015"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button1,7"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""dde9abdf-41da-48ba-bec3-d2751e049d33"",
+                    ""path"": ""<MidiDevice>/note016"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button2,0"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ec25ddf4-610a-45a7-8a6c-81396eaf4f39"",
+                    ""path"": ""<MidiDevice>/note017"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button2,1"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""80e1a00f-f5f0-468d-8c3a-4f74e1ab9465"",
+                    ""path"": ""<MidiDevice>/note018"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button2,2"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""7e8b7328-1267-4307-84ca-c0d96e1fd924"",
+                    ""path"": ""<MidiDevice>/note019"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button2,3"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8b97cee5-b255-4d3a-9f1b-5b6a3a75993f"",
+                    ""path"": ""<MidiDevice>/note020"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button2,4"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""67bbc9f8-9943-4dae-a27c-52edd5f54dc0"",
+                    ""path"": ""<MidiDevice>/note021"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button2,5"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a8de3ec9-93da-4497-97ab-7ee6bdc4a563"",
+                    ""path"": ""<MidiDevice>/note022"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button2,6"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""cb11b317-0f3c-4e61-ad77-e43fe496c1bd"",
+                    ""path"": ""<MidiDevice>/note023"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button2,7"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""029c6f6d-f95a-475c-b061-afd01f5283f2"",
+                    ""path"": ""<MidiDevice>/note025"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button3,1"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""6408dcea-c92f-4b74-8248-d4104adb86a2"",
+                    ""path"": ""<MidiDevice>/note026"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button3,2"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""17491f8e-338d-409d-a77b-dd7e6b632a2d"",
+                    ""path"": ""<MidiDevice>/note027"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button3,3"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e41fccab-b093-434b-84bb-46f0348641da"",
+                    ""path"": ""<MidiDevice>/note028"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button3,4"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""3f4012c1-6cdf-408d-8905-af911224c0a6"",
+                    ""path"": ""<MidiDevice>/note029"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button3,5"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""409097f4-abac-49e4-a830-cc1802e4dbf0"",
+                    ""path"": ""<MidiDevice>/note030"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button3,6"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""281e7221-d87d-4ac7-b6cc-bdc729f83763"",
+                    ""path"": ""<MidiDevice>/note031"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button3,7"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""beb2171b-6a4c-4cd1-add7-c1a6d95ccbc0"",
+                    ""path"": ""<MidiDevice>/note024"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button3,0"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""151df129-0378-42b5-a143-20e5b92ce023"",
+                    ""path"": ""<MidiDevice>/note032"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button4,0"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""c0efd732-bd25-42b7-9789-25433c993706"",
+                    ""path"": ""<MidiDevice>/note033"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button4,1"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d4ae0e69-6cba-4b65-824d-927db3617964"",
+                    ""path"": ""<MidiDevice>/note034"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button4,2"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8f7535d6-7aec-4124-a1bb-17b64c6f5883"",
+                    ""path"": ""<MidiDevice>/note035"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button4,3"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ca37cbf5-f907-40bc-b326-bd45a9a3a7b6"",
+                    ""path"": ""<MidiDevice>/note036"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button4,4"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""85fde153-c169-4211-b238-eff07506f478"",
+                    ""path"": ""<MidiDevice>/note037"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button4,5"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""6dc06ac8-00fb-45b9-ab49-0676228374fb"",
+                    ""path"": ""<MidiDevice>/note038"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button4,6"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""2c504cd4-549f-41e6-9df0-2a57bb9e763a"",
+                    ""path"": ""<MidiDevice>/note039"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button4,7"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""1c991b41-a8e3-4858-9091-688125498fea"",
+                    ""path"": ""<MidiDevice>/note040"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button5,0"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d07121e1-470c-472e-9c47-ebfb93b90a68"",
+                    ""path"": ""<MidiDevice>/note041"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button5,1"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e852c3df-1c32-402c-8a14-bee73960aab4"",
+                    ""path"": ""<MidiDevice>/note042"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button5,2"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e4e3f555-38e2-4e18-bb54-556080ef9f12"",
+                    ""path"": ""<MidiDevice>/note043"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button5,3"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""df028ea9-be19-426c-b736-968efd66798d"",
+                    ""path"": ""<MidiDevice>/note044"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button5,4"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""532d8ff8-e845-4ff9-ad89-a61575cdadac"",
+                    ""path"": ""<MidiDevice>/note045"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button5,5"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""3c972e5e-444b-442f-904e-2294e42f05b9"",
+                    ""path"": ""<MidiDevice>/note046"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button5,6"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""2ece31d6-9c83-43fc-b07d-0d291b19cda6"",
+                    ""path"": ""<MidiDevice>/note047"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button5,7"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""4780fdcd-2d90-4347-8d4a-48554a3f2187"",
+                    ""path"": ""<MidiDevice>/note049"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button6,1"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""622ef038-3cfb-4214-a8f2-731677ff2a45"",
+                    ""path"": ""<MidiDevice>/note050"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button6,2"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""6f17a7df-9793-44b7-869b-15eab32f1aa8"",
+                    ""path"": ""<MidiDevice>/note051"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button6,3"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""7f2a91f3-b55c-4323-83af-a62225687bc7"",
+                    ""path"": ""<MidiDevice>/note052"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button6,4"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0c027f43-030f-491c-adac-6dd3f202c12e"",
+                    ""path"": ""<MidiDevice>/note053"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button6,5"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""708bd5a5-0d94-4527-b54a-da721b0639b7"",
+                    ""path"": ""<MidiDevice>/note054"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button6,6"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""1d8c64a9-adc1-4ca0-858b-c410d6f8a06f"",
+                    ""path"": ""<MidiDevice>/note055"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button6,7"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""eba87918-3284-4a40-94b7-a1c9bfa2e41c"",
+                    ""path"": ""<MidiDevice>/note056"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button7,0"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e648a2c0-a494-4e39-918f-cd2e804188f1"",
+                    ""path"": ""<MidiDevice>/note057"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button7,1"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""09c49bd9-5c02-4cdc-896b-597d134d5e0c"",
+                    ""path"": ""<MidiDevice>/note058"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button7,2"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""676aba17-d2b6-4701-bc1e-9f36f07e5f51"",
+                    ""path"": ""<MidiDevice>/note059"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button7,3"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""32abc61f-541b-4a94-90de-28893135f688"",
+                    ""path"": ""<MidiDevice>/note060"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button7,4"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b0f0bd87-32cf-4098-bf9a-95e1a83add4c"",
+                    ""path"": ""<MidiDevice>/note061"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button7,5"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""64775ad5-e064-4bcc-8ddf-97dd177f04a6"",
+                    ""path"": ""<MidiDevice>/note062"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button7,6"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ca6136e4-be5a-40dd-850b-0724b8adfd76"",
+                    ""path"": ""<MidiDevice>/note063"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Button7,7"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""345e6b58-f69f-4490-ba91-655fb012c675"",
                     ""path"": ""<MidiDevice>/note048"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""2-1"",
+                    ""action"": ""Button6,0"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -1296,6 +2396,274 @@ public partial class @PlayerControllsTest: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": true
                 }
             ]
+        },
+        {
+            ""name"": ""APCMisc"",
+            ""id"": ""1acb1d65-d56c-47ab-b64e-6d28d5f1550b"",
+            ""actions"": [
+                {
+                    ""name"": ""ClipStop"",
+                    ""type"": ""Button"",
+                    ""id"": ""eb4389f4-ab5d-432f-9145-e4d69bd27ac7"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Solo"",
+                    ""type"": ""Button"",
+                    ""id"": ""c1c0e5ec-3b43-4833-b557-6c585a1ec630"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""RecArm"",
+                    ""type"": ""Button"",
+                    ""id"": ""ad548604-9130-4cba-ab1d-93d198ac490b"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Mute"",
+                    ""type"": ""Button"",
+                    ""id"": ""cd30ed1c-15ef-4307-ab68-5e7ea2569735"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Select"",
+                    ""type"": ""Button"",
+                    ""id"": ""dfd1bf80-251b-4249-9f12-622432e4cc09"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Extra1"",
+                    ""type"": ""Button"",
+                    ""id"": ""da973752-388a-4ff0-9a9a-6555f5a0553e"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Extra2"",
+                    ""type"": ""Button"",
+                    ""id"": ""cb4916c3-65ba-4a4e-b137-a1b5e9993961"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""StopAll"",
+                    ""type"": ""Button"",
+                    ""id"": ""32fba8a2-6a85-450f-be24-f3d4555b9473"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Shift"",
+                    ""type"": ""Button"",
+                    ""id"": ""6b09d282-eb10-4fe0-8da1-f599dd1eb9d1"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Volume"",
+                    ""type"": ""Button"",
+                    ""id"": ""683558ab-3591-4c1a-8391-b062d1d5b4d3"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Pan"",
+                    ""type"": ""Button"",
+                    ""id"": ""7de26686-6236-4cd7-8dbd-bf4f3eba8edc"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Send"",
+                    ""type"": ""Button"",
+                    ""id"": ""8f419755-7f98-43cc-b3a4-f2f3a46cc0a5"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Device"",
+                    ""type"": ""Button"",
+                    ""id"": ""f97b7885-8cbd-451f-95d7-0aa1c51772f0"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""b43a3859-a6fd-4bd1-a40f-5f9ab8404d37"",
+                    ""path"": ""<MidiDevice>/note082"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ClipStop"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""06bb7c99-b03f-4828-93f8-2fdcf32ba82b"",
+                    ""path"": ""<MidiDevice>/note083"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Solo"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""c6daf926-6348-44a1-8274-06030286dcab"",
+                    ""path"": ""<MidiDevice>/note084"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""RecArm"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""05e13c31-6279-4a05-a9cd-4a3e3484e192"",
+                    ""path"": ""<MidiDevice>/note085"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Mute"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""dfe40446-277a-40d0-bdc1-170314e27535"",
+                    ""path"": ""<MidiDevice>/note086"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Select"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""468dfd9e-9783-4509-92f1-9f4b3f93e9cd"",
+                    ""path"": ""<MidiDevice>/note087"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Extra1"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""4c181722-d6da-4b27-b26a-b8c57c7209bc"",
+                    ""path"": ""<MidiDevice>/note088"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Extra2"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""aa05c44a-3de5-4964-8319-fafb00b58bc3"",
+                    ""path"": ""<MidiDevice>/note089"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""StopAll"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""de3bf7c9-744f-4a75-b7cf-d83395d140ad"",
+                    ""path"": ""<MidiDevice>/note068"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Volume"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""81a9ce71-0d68-4029-9653-14da732196e6"",
+                    ""path"": ""<MidiDevice>/note069"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Pan"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""1487a892-d087-4146-8b13-9227d3fd8576"",
+                    ""path"": ""<MidiDevice>/note070"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Send"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ebcd66e7-dc61-4f5f-9ddb-d749f2876286"",
+                    ""path"": ""<MidiDevice>/note071"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Device"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""bac79a2a-1bbb-4d17-8a75-3270348e1f47"",
+                    ""path"": ""<MidiDevice>/note098"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Shift"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": [
@@ -1380,15 +2748,70 @@ public partial class @PlayerControllsTest: IInputActionCollection2, IDisposable
         m_UI_TrackedDeviceOrientation = m_UI.FindAction("TrackedDeviceOrientation", throwIfNotFound: true);
         // APCMini
         m_APCMini = asset.FindActionMap("APCMini", throwIfNotFound: true);
-        m_APCMini__11 = m_APCMini.FindAction("1-1", throwIfNotFound: true);
-        m_APCMini__12 = m_APCMini.FindAction("1-2", throwIfNotFound: true);
-        m_APCMini__13 = m_APCMini.FindAction("1-3", throwIfNotFound: true);
-        m_APCMini__14 = m_APCMini.FindAction("1-4", throwIfNotFound: true);
-        m_APCMini__15 = m_APCMini.FindAction("1-5", throwIfNotFound: true);
-        m_APCMini__16 = m_APCMini.FindAction("1-6", throwIfNotFound: true);
-        m_APCMini__17 = m_APCMini.FindAction("1-7", throwIfNotFound: true);
-        m_APCMini__18 = m_APCMini.FindAction("1-8", throwIfNotFound: true);
-        m_APCMini__21 = m_APCMini.FindAction("2-1", throwIfNotFound: true);
+        m_APCMini_Button00 = m_APCMini.FindAction("Button0,0", throwIfNotFound: true);
+        m_APCMini_Button01 = m_APCMini.FindAction("Button0,1", throwIfNotFound: true);
+        m_APCMini_Button02 = m_APCMini.FindAction("Button0,2", throwIfNotFound: true);
+        m_APCMini_Button03 = m_APCMini.FindAction("Button0,3", throwIfNotFound: true);
+        m_APCMini_Button04 = m_APCMini.FindAction("Button0,4", throwIfNotFound: true);
+        m_APCMini_Button05 = m_APCMini.FindAction("Button0,5", throwIfNotFound: true);
+        m_APCMini_Button06 = m_APCMini.FindAction("Button0,6", throwIfNotFound: true);
+        m_APCMini_Button07 = m_APCMini.FindAction("Button0,7", throwIfNotFound: true);
+        m_APCMini_Button10 = m_APCMini.FindAction("Button1,0", throwIfNotFound: true);
+        m_APCMini_Button11 = m_APCMini.FindAction("Button1,1", throwIfNotFound: true);
+        m_APCMini_Button12 = m_APCMini.FindAction("Button1,2", throwIfNotFound: true);
+        m_APCMini_Button13 = m_APCMini.FindAction("Button1,3", throwIfNotFound: true);
+        m_APCMini_Button14 = m_APCMini.FindAction("Button1,4", throwIfNotFound: true);
+        m_APCMini_Button15 = m_APCMini.FindAction("Button1,5", throwIfNotFound: true);
+        m_APCMini_Button16 = m_APCMini.FindAction("Button1,6", throwIfNotFound: true);
+        m_APCMini_Button17 = m_APCMini.FindAction("Button1,7", throwIfNotFound: true);
+        m_APCMini_Button20 = m_APCMini.FindAction("Button2,0", throwIfNotFound: true);
+        m_APCMini_Button21 = m_APCMini.FindAction("Button2,1", throwIfNotFound: true);
+        m_APCMini_Button22 = m_APCMini.FindAction("Button2,2", throwIfNotFound: true);
+        m_APCMini_Button23 = m_APCMini.FindAction("Button2,3", throwIfNotFound: true);
+        m_APCMini_Button24 = m_APCMini.FindAction("Button2,4", throwIfNotFound: true);
+        m_APCMini_Button25 = m_APCMini.FindAction("Button2,5", throwIfNotFound: true);
+        m_APCMini_Button26 = m_APCMini.FindAction("Button2,6", throwIfNotFound: true);
+        m_APCMini_Button27 = m_APCMini.FindAction("Button2,7", throwIfNotFound: true);
+        m_APCMini_Button30 = m_APCMini.FindAction("Button3,0", throwIfNotFound: true);
+        m_APCMini_Button31 = m_APCMini.FindAction("Button3,1", throwIfNotFound: true);
+        m_APCMini_Button32 = m_APCMini.FindAction("Button3,2", throwIfNotFound: true);
+        m_APCMini_Button33 = m_APCMini.FindAction("Button3,3", throwIfNotFound: true);
+        m_APCMini_Button34 = m_APCMini.FindAction("Button3,4", throwIfNotFound: true);
+        m_APCMini_Button35 = m_APCMini.FindAction("Button3,5", throwIfNotFound: true);
+        m_APCMini_Button36 = m_APCMini.FindAction("Button3,6", throwIfNotFound: true);
+        m_APCMini_Button37 = m_APCMini.FindAction("Button3,7", throwIfNotFound: true);
+        m_APCMini_Button40 = m_APCMini.FindAction("Button4,0", throwIfNotFound: true);
+        m_APCMini_Button41 = m_APCMini.FindAction("Button4,1", throwIfNotFound: true);
+        m_APCMini_Button42 = m_APCMini.FindAction("Button4,2", throwIfNotFound: true);
+        m_APCMini_Button43 = m_APCMini.FindAction("Button4,3", throwIfNotFound: true);
+        m_APCMini_Button44 = m_APCMini.FindAction("Button4,4", throwIfNotFound: true);
+        m_APCMini_Button45 = m_APCMini.FindAction("Button4,5", throwIfNotFound: true);
+        m_APCMini_Button46 = m_APCMini.FindAction("Button4,6", throwIfNotFound: true);
+        m_APCMini_Button47 = m_APCMini.FindAction("Button4,7", throwIfNotFound: true);
+        m_APCMini_Button50 = m_APCMini.FindAction("Button5,0", throwIfNotFound: true);
+        m_APCMini_Button51 = m_APCMini.FindAction("Button5,1", throwIfNotFound: true);
+        m_APCMini_Button52 = m_APCMini.FindAction("Button5,2", throwIfNotFound: true);
+        m_APCMini_Button53 = m_APCMini.FindAction("Button5,3", throwIfNotFound: true);
+        m_APCMini_Button54 = m_APCMini.FindAction("Button5,4", throwIfNotFound: true);
+        m_APCMini_Button55 = m_APCMini.FindAction("Button5,5", throwIfNotFound: true);
+        m_APCMini_Button56 = m_APCMini.FindAction("Button5,6", throwIfNotFound: true);
+        m_APCMini_Button57 = m_APCMini.FindAction("Button5,7", throwIfNotFound: true);
+        m_APCMini_Button60 = m_APCMini.FindAction("Button6,0", throwIfNotFound: true);
+        m_APCMini_Button61 = m_APCMini.FindAction("Button6,1", throwIfNotFound: true);
+        m_APCMini_Button62 = m_APCMini.FindAction("Button6,2", throwIfNotFound: true);
+        m_APCMini_Button63 = m_APCMini.FindAction("Button6,3", throwIfNotFound: true);
+        m_APCMini_Button64 = m_APCMini.FindAction("Button6,4", throwIfNotFound: true);
+        m_APCMini_Button65 = m_APCMini.FindAction("Button6,5", throwIfNotFound: true);
+        m_APCMini_Button66 = m_APCMini.FindAction("Button6,6", throwIfNotFound: true);
+        m_APCMini_Button67 = m_APCMini.FindAction("Button6,7", throwIfNotFound: true);
+        m_APCMini_Button70 = m_APCMini.FindAction("Button7,0", throwIfNotFound: true);
+        m_APCMini_Button71 = m_APCMini.FindAction("Button7,1", throwIfNotFound: true);
+        m_APCMini_Button72 = m_APCMini.FindAction("Button7,2", throwIfNotFound: true);
+        m_APCMini_Button73 = m_APCMini.FindAction("Button7,3", throwIfNotFound: true);
+        m_APCMini_Button74 = m_APCMini.FindAction("Button7,4", throwIfNotFound: true);
+        m_APCMini_Button75 = m_APCMini.FindAction("Button7,5", throwIfNotFound: true);
+        m_APCMini_Button76 = m_APCMini.FindAction("Button7,6", throwIfNotFound: true);
+        m_APCMini_Button77 = m_APCMini.FindAction("Button7,7", throwIfNotFound: true);
         // APCSliders
         m_APCSliders = asset.FindActionMap("APCSliders", throwIfNotFound: true);
         m_APCSliders_Slider1 = m_APCSliders.FindAction("Slider1", throwIfNotFound: true);
@@ -1403,6 +2826,21 @@ public partial class @PlayerControllsTest: IInputActionCollection2, IDisposable
         // APCMovement
         m_APCMovement = asset.FindActionMap("APCMovement", throwIfNotFound: true);
         m_APCMovement_MidiMove = m_APCMovement.FindAction("MidiMove", throwIfNotFound: true);
+        // APCMisc
+        m_APCMisc = asset.FindActionMap("APCMisc", throwIfNotFound: true);
+        m_APCMisc_ClipStop = m_APCMisc.FindAction("ClipStop", throwIfNotFound: true);
+        m_APCMisc_Solo = m_APCMisc.FindAction("Solo", throwIfNotFound: true);
+        m_APCMisc_RecArm = m_APCMisc.FindAction("RecArm", throwIfNotFound: true);
+        m_APCMisc_Mute = m_APCMisc.FindAction("Mute", throwIfNotFound: true);
+        m_APCMisc_Select = m_APCMisc.FindAction("Select", throwIfNotFound: true);
+        m_APCMisc_Extra1 = m_APCMisc.FindAction("Extra1", throwIfNotFound: true);
+        m_APCMisc_Extra2 = m_APCMisc.FindAction("Extra2", throwIfNotFound: true);
+        m_APCMisc_StopAll = m_APCMisc.FindAction("StopAll", throwIfNotFound: true);
+        m_APCMisc_Shift = m_APCMisc.FindAction("Shift", throwIfNotFound: true);
+        m_APCMisc_Volume = m_APCMisc.FindAction("Volume", throwIfNotFound: true);
+        m_APCMisc_Pan = m_APCMisc.FindAction("Pan", throwIfNotFound: true);
+        m_APCMisc_Send = m_APCMisc.FindAction("Send", throwIfNotFound: true);
+        m_APCMisc_Device = m_APCMisc.FindAction("Device", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -1644,28 +3082,138 @@ public partial class @PlayerControllsTest: IInputActionCollection2, IDisposable
     // APCMini
     private readonly InputActionMap m_APCMini;
     private List<IAPCMiniActions> m_APCMiniActionsCallbackInterfaces = new List<IAPCMiniActions>();
-    private readonly InputAction m_APCMini__11;
-    private readonly InputAction m_APCMini__12;
-    private readonly InputAction m_APCMini__13;
-    private readonly InputAction m_APCMini__14;
-    private readonly InputAction m_APCMini__15;
-    private readonly InputAction m_APCMini__16;
-    private readonly InputAction m_APCMini__17;
-    private readonly InputAction m_APCMini__18;
-    private readonly InputAction m_APCMini__21;
+    private readonly InputAction m_APCMini_Button00;
+    private readonly InputAction m_APCMini_Button01;
+    private readonly InputAction m_APCMini_Button02;
+    private readonly InputAction m_APCMini_Button03;
+    private readonly InputAction m_APCMini_Button04;
+    private readonly InputAction m_APCMini_Button05;
+    private readonly InputAction m_APCMini_Button06;
+    private readonly InputAction m_APCMini_Button07;
+    private readonly InputAction m_APCMini_Button10;
+    private readonly InputAction m_APCMini_Button11;
+    private readonly InputAction m_APCMini_Button12;
+    private readonly InputAction m_APCMini_Button13;
+    private readonly InputAction m_APCMini_Button14;
+    private readonly InputAction m_APCMini_Button15;
+    private readonly InputAction m_APCMini_Button16;
+    private readonly InputAction m_APCMini_Button17;
+    private readonly InputAction m_APCMini_Button20;
+    private readonly InputAction m_APCMini_Button21;
+    private readonly InputAction m_APCMini_Button22;
+    private readonly InputAction m_APCMini_Button23;
+    private readonly InputAction m_APCMini_Button24;
+    private readonly InputAction m_APCMini_Button25;
+    private readonly InputAction m_APCMini_Button26;
+    private readonly InputAction m_APCMini_Button27;
+    private readonly InputAction m_APCMini_Button30;
+    private readonly InputAction m_APCMini_Button31;
+    private readonly InputAction m_APCMini_Button32;
+    private readonly InputAction m_APCMini_Button33;
+    private readonly InputAction m_APCMini_Button34;
+    private readonly InputAction m_APCMini_Button35;
+    private readonly InputAction m_APCMini_Button36;
+    private readonly InputAction m_APCMini_Button37;
+    private readonly InputAction m_APCMini_Button40;
+    private readonly InputAction m_APCMini_Button41;
+    private readonly InputAction m_APCMini_Button42;
+    private readonly InputAction m_APCMini_Button43;
+    private readonly InputAction m_APCMini_Button44;
+    private readonly InputAction m_APCMini_Button45;
+    private readonly InputAction m_APCMini_Button46;
+    private readonly InputAction m_APCMini_Button47;
+    private readonly InputAction m_APCMini_Button50;
+    private readonly InputAction m_APCMini_Button51;
+    private readonly InputAction m_APCMini_Button52;
+    private readonly InputAction m_APCMini_Button53;
+    private readonly InputAction m_APCMini_Button54;
+    private readonly InputAction m_APCMini_Button55;
+    private readonly InputAction m_APCMini_Button56;
+    private readonly InputAction m_APCMini_Button57;
+    private readonly InputAction m_APCMini_Button60;
+    private readonly InputAction m_APCMini_Button61;
+    private readonly InputAction m_APCMini_Button62;
+    private readonly InputAction m_APCMini_Button63;
+    private readonly InputAction m_APCMini_Button64;
+    private readonly InputAction m_APCMini_Button65;
+    private readonly InputAction m_APCMini_Button66;
+    private readonly InputAction m_APCMini_Button67;
+    private readonly InputAction m_APCMini_Button70;
+    private readonly InputAction m_APCMini_Button71;
+    private readonly InputAction m_APCMini_Button72;
+    private readonly InputAction m_APCMini_Button73;
+    private readonly InputAction m_APCMini_Button74;
+    private readonly InputAction m_APCMini_Button75;
+    private readonly InputAction m_APCMini_Button76;
+    private readonly InputAction m_APCMini_Button77;
     public struct APCMiniActions
     {
         private @PlayerControllsTest m_Wrapper;
         public APCMiniActions(@PlayerControllsTest wrapper) { m_Wrapper = wrapper; }
-        public InputAction @_11 => m_Wrapper.m_APCMini__11;
-        public InputAction @_12 => m_Wrapper.m_APCMini__12;
-        public InputAction @_13 => m_Wrapper.m_APCMini__13;
-        public InputAction @_14 => m_Wrapper.m_APCMini__14;
-        public InputAction @_15 => m_Wrapper.m_APCMini__15;
-        public InputAction @_16 => m_Wrapper.m_APCMini__16;
-        public InputAction @_17 => m_Wrapper.m_APCMini__17;
-        public InputAction @_18 => m_Wrapper.m_APCMini__18;
-        public InputAction @_21 => m_Wrapper.m_APCMini__21;
+        public InputAction @Button00 => m_Wrapper.m_APCMini_Button00;
+        public InputAction @Button01 => m_Wrapper.m_APCMini_Button01;
+        public InputAction @Button02 => m_Wrapper.m_APCMini_Button02;
+        public InputAction @Button03 => m_Wrapper.m_APCMini_Button03;
+        public InputAction @Button04 => m_Wrapper.m_APCMini_Button04;
+        public InputAction @Button05 => m_Wrapper.m_APCMini_Button05;
+        public InputAction @Button06 => m_Wrapper.m_APCMini_Button06;
+        public InputAction @Button07 => m_Wrapper.m_APCMini_Button07;
+        public InputAction @Button10 => m_Wrapper.m_APCMini_Button10;
+        public InputAction @Button11 => m_Wrapper.m_APCMini_Button11;
+        public InputAction @Button12 => m_Wrapper.m_APCMini_Button12;
+        public InputAction @Button13 => m_Wrapper.m_APCMini_Button13;
+        public InputAction @Button14 => m_Wrapper.m_APCMini_Button14;
+        public InputAction @Button15 => m_Wrapper.m_APCMini_Button15;
+        public InputAction @Button16 => m_Wrapper.m_APCMini_Button16;
+        public InputAction @Button17 => m_Wrapper.m_APCMini_Button17;
+        public InputAction @Button20 => m_Wrapper.m_APCMini_Button20;
+        public InputAction @Button21 => m_Wrapper.m_APCMini_Button21;
+        public InputAction @Button22 => m_Wrapper.m_APCMini_Button22;
+        public InputAction @Button23 => m_Wrapper.m_APCMini_Button23;
+        public InputAction @Button24 => m_Wrapper.m_APCMini_Button24;
+        public InputAction @Button25 => m_Wrapper.m_APCMini_Button25;
+        public InputAction @Button26 => m_Wrapper.m_APCMini_Button26;
+        public InputAction @Button27 => m_Wrapper.m_APCMini_Button27;
+        public InputAction @Button30 => m_Wrapper.m_APCMini_Button30;
+        public InputAction @Button31 => m_Wrapper.m_APCMini_Button31;
+        public InputAction @Button32 => m_Wrapper.m_APCMini_Button32;
+        public InputAction @Button33 => m_Wrapper.m_APCMini_Button33;
+        public InputAction @Button34 => m_Wrapper.m_APCMini_Button34;
+        public InputAction @Button35 => m_Wrapper.m_APCMini_Button35;
+        public InputAction @Button36 => m_Wrapper.m_APCMini_Button36;
+        public InputAction @Button37 => m_Wrapper.m_APCMini_Button37;
+        public InputAction @Button40 => m_Wrapper.m_APCMini_Button40;
+        public InputAction @Button41 => m_Wrapper.m_APCMini_Button41;
+        public InputAction @Button42 => m_Wrapper.m_APCMini_Button42;
+        public InputAction @Button43 => m_Wrapper.m_APCMini_Button43;
+        public InputAction @Button44 => m_Wrapper.m_APCMini_Button44;
+        public InputAction @Button45 => m_Wrapper.m_APCMini_Button45;
+        public InputAction @Button46 => m_Wrapper.m_APCMini_Button46;
+        public InputAction @Button47 => m_Wrapper.m_APCMini_Button47;
+        public InputAction @Button50 => m_Wrapper.m_APCMini_Button50;
+        public InputAction @Button51 => m_Wrapper.m_APCMini_Button51;
+        public InputAction @Button52 => m_Wrapper.m_APCMini_Button52;
+        public InputAction @Button53 => m_Wrapper.m_APCMini_Button53;
+        public InputAction @Button54 => m_Wrapper.m_APCMini_Button54;
+        public InputAction @Button55 => m_Wrapper.m_APCMini_Button55;
+        public InputAction @Button56 => m_Wrapper.m_APCMini_Button56;
+        public InputAction @Button57 => m_Wrapper.m_APCMini_Button57;
+        public InputAction @Button60 => m_Wrapper.m_APCMini_Button60;
+        public InputAction @Button61 => m_Wrapper.m_APCMini_Button61;
+        public InputAction @Button62 => m_Wrapper.m_APCMini_Button62;
+        public InputAction @Button63 => m_Wrapper.m_APCMini_Button63;
+        public InputAction @Button64 => m_Wrapper.m_APCMini_Button64;
+        public InputAction @Button65 => m_Wrapper.m_APCMini_Button65;
+        public InputAction @Button66 => m_Wrapper.m_APCMini_Button66;
+        public InputAction @Button67 => m_Wrapper.m_APCMini_Button67;
+        public InputAction @Button70 => m_Wrapper.m_APCMini_Button70;
+        public InputAction @Button71 => m_Wrapper.m_APCMini_Button71;
+        public InputAction @Button72 => m_Wrapper.m_APCMini_Button72;
+        public InputAction @Button73 => m_Wrapper.m_APCMini_Button73;
+        public InputAction @Button74 => m_Wrapper.m_APCMini_Button74;
+        public InputAction @Button75 => m_Wrapper.m_APCMini_Button75;
+        public InputAction @Button76 => m_Wrapper.m_APCMini_Button76;
+        public InputAction @Button77 => m_Wrapper.m_APCMini_Button77;
         public InputActionMap Get() { return m_Wrapper.m_APCMini; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1675,64 +3223,394 @@ public partial class @PlayerControllsTest: IInputActionCollection2, IDisposable
         {
             if (instance == null || m_Wrapper.m_APCMiniActionsCallbackInterfaces.Contains(instance)) return;
             m_Wrapper.m_APCMiniActionsCallbackInterfaces.Add(instance);
-            @_11.started += instance.On_11;
-            @_11.performed += instance.On_11;
-            @_11.canceled += instance.On_11;
-            @_12.started += instance.On_12;
-            @_12.performed += instance.On_12;
-            @_12.canceled += instance.On_12;
-            @_13.started += instance.On_13;
-            @_13.performed += instance.On_13;
-            @_13.canceled += instance.On_13;
-            @_14.started += instance.On_14;
-            @_14.performed += instance.On_14;
-            @_14.canceled += instance.On_14;
-            @_15.started += instance.On_15;
-            @_15.performed += instance.On_15;
-            @_15.canceled += instance.On_15;
-            @_16.started += instance.On_16;
-            @_16.performed += instance.On_16;
-            @_16.canceled += instance.On_16;
-            @_17.started += instance.On_17;
-            @_17.performed += instance.On_17;
-            @_17.canceled += instance.On_17;
-            @_18.started += instance.On_18;
-            @_18.performed += instance.On_18;
-            @_18.canceled += instance.On_18;
-            @_21.started += instance.On_21;
-            @_21.performed += instance.On_21;
-            @_21.canceled += instance.On_21;
+            @Button00.started += instance.OnButton00;
+            @Button00.performed += instance.OnButton00;
+            @Button00.canceled += instance.OnButton00;
+            @Button01.started += instance.OnButton01;
+            @Button01.performed += instance.OnButton01;
+            @Button01.canceled += instance.OnButton01;
+            @Button02.started += instance.OnButton02;
+            @Button02.performed += instance.OnButton02;
+            @Button02.canceled += instance.OnButton02;
+            @Button03.started += instance.OnButton03;
+            @Button03.performed += instance.OnButton03;
+            @Button03.canceled += instance.OnButton03;
+            @Button04.started += instance.OnButton04;
+            @Button04.performed += instance.OnButton04;
+            @Button04.canceled += instance.OnButton04;
+            @Button05.started += instance.OnButton05;
+            @Button05.performed += instance.OnButton05;
+            @Button05.canceled += instance.OnButton05;
+            @Button06.started += instance.OnButton06;
+            @Button06.performed += instance.OnButton06;
+            @Button06.canceled += instance.OnButton06;
+            @Button07.started += instance.OnButton07;
+            @Button07.performed += instance.OnButton07;
+            @Button07.canceled += instance.OnButton07;
+            @Button10.started += instance.OnButton10;
+            @Button10.performed += instance.OnButton10;
+            @Button10.canceled += instance.OnButton10;
+            @Button11.started += instance.OnButton11;
+            @Button11.performed += instance.OnButton11;
+            @Button11.canceled += instance.OnButton11;
+            @Button12.started += instance.OnButton12;
+            @Button12.performed += instance.OnButton12;
+            @Button12.canceled += instance.OnButton12;
+            @Button13.started += instance.OnButton13;
+            @Button13.performed += instance.OnButton13;
+            @Button13.canceled += instance.OnButton13;
+            @Button14.started += instance.OnButton14;
+            @Button14.performed += instance.OnButton14;
+            @Button14.canceled += instance.OnButton14;
+            @Button15.started += instance.OnButton15;
+            @Button15.performed += instance.OnButton15;
+            @Button15.canceled += instance.OnButton15;
+            @Button16.started += instance.OnButton16;
+            @Button16.performed += instance.OnButton16;
+            @Button16.canceled += instance.OnButton16;
+            @Button17.started += instance.OnButton17;
+            @Button17.performed += instance.OnButton17;
+            @Button17.canceled += instance.OnButton17;
+            @Button20.started += instance.OnButton20;
+            @Button20.performed += instance.OnButton20;
+            @Button20.canceled += instance.OnButton20;
+            @Button21.started += instance.OnButton21;
+            @Button21.performed += instance.OnButton21;
+            @Button21.canceled += instance.OnButton21;
+            @Button22.started += instance.OnButton22;
+            @Button22.performed += instance.OnButton22;
+            @Button22.canceled += instance.OnButton22;
+            @Button23.started += instance.OnButton23;
+            @Button23.performed += instance.OnButton23;
+            @Button23.canceled += instance.OnButton23;
+            @Button24.started += instance.OnButton24;
+            @Button24.performed += instance.OnButton24;
+            @Button24.canceled += instance.OnButton24;
+            @Button25.started += instance.OnButton25;
+            @Button25.performed += instance.OnButton25;
+            @Button25.canceled += instance.OnButton25;
+            @Button26.started += instance.OnButton26;
+            @Button26.performed += instance.OnButton26;
+            @Button26.canceled += instance.OnButton26;
+            @Button27.started += instance.OnButton27;
+            @Button27.performed += instance.OnButton27;
+            @Button27.canceled += instance.OnButton27;
+            @Button30.started += instance.OnButton30;
+            @Button30.performed += instance.OnButton30;
+            @Button30.canceled += instance.OnButton30;
+            @Button31.started += instance.OnButton31;
+            @Button31.performed += instance.OnButton31;
+            @Button31.canceled += instance.OnButton31;
+            @Button32.started += instance.OnButton32;
+            @Button32.performed += instance.OnButton32;
+            @Button32.canceled += instance.OnButton32;
+            @Button33.started += instance.OnButton33;
+            @Button33.performed += instance.OnButton33;
+            @Button33.canceled += instance.OnButton33;
+            @Button34.started += instance.OnButton34;
+            @Button34.performed += instance.OnButton34;
+            @Button34.canceled += instance.OnButton34;
+            @Button35.started += instance.OnButton35;
+            @Button35.performed += instance.OnButton35;
+            @Button35.canceled += instance.OnButton35;
+            @Button36.started += instance.OnButton36;
+            @Button36.performed += instance.OnButton36;
+            @Button36.canceled += instance.OnButton36;
+            @Button37.started += instance.OnButton37;
+            @Button37.performed += instance.OnButton37;
+            @Button37.canceled += instance.OnButton37;
+            @Button40.started += instance.OnButton40;
+            @Button40.performed += instance.OnButton40;
+            @Button40.canceled += instance.OnButton40;
+            @Button41.started += instance.OnButton41;
+            @Button41.performed += instance.OnButton41;
+            @Button41.canceled += instance.OnButton41;
+            @Button42.started += instance.OnButton42;
+            @Button42.performed += instance.OnButton42;
+            @Button42.canceled += instance.OnButton42;
+            @Button43.started += instance.OnButton43;
+            @Button43.performed += instance.OnButton43;
+            @Button43.canceled += instance.OnButton43;
+            @Button44.started += instance.OnButton44;
+            @Button44.performed += instance.OnButton44;
+            @Button44.canceled += instance.OnButton44;
+            @Button45.started += instance.OnButton45;
+            @Button45.performed += instance.OnButton45;
+            @Button45.canceled += instance.OnButton45;
+            @Button46.started += instance.OnButton46;
+            @Button46.performed += instance.OnButton46;
+            @Button46.canceled += instance.OnButton46;
+            @Button47.started += instance.OnButton47;
+            @Button47.performed += instance.OnButton47;
+            @Button47.canceled += instance.OnButton47;
+            @Button50.started += instance.OnButton50;
+            @Button50.performed += instance.OnButton50;
+            @Button50.canceled += instance.OnButton50;
+            @Button51.started += instance.OnButton51;
+            @Button51.performed += instance.OnButton51;
+            @Button51.canceled += instance.OnButton51;
+            @Button52.started += instance.OnButton52;
+            @Button52.performed += instance.OnButton52;
+            @Button52.canceled += instance.OnButton52;
+            @Button53.started += instance.OnButton53;
+            @Button53.performed += instance.OnButton53;
+            @Button53.canceled += instance.OnButton53;
+            @Button54.started += instance.OnButton54;
+            @Button54.performed += instance.OnButton54;
+            @Button54.canceled += instance.OnButton54;
+            @Button55.started += instance.OnButton55;
+            @Button55.performed += instance.OnButton55;
+            @Button55.canceled += instance.OnButton55;
+            @Button56.started += instance.OnButton56;
+            @Button56.performed += instance.OnButton56;
+            @Button56.canceled += instance.OnButton56;
+            @Button57.started += instance.OnButton57;
+            @Button57.performed += instance.OnButton57;
+            @Button57.canceled += instance.OnButton57;
+            @Button60.started += instance.OnButton60;
+            @Button60.performed += instance.OnButton60;
+            @Button60.canceled += instance.OnButton60;
+            @Button61.started += instance.OnButton61;
+            @Button61.performed += instance.OnButton61;
+            @Button61.canceled += instance.OnButton61;
+            @Button62.started += instance.OnButton62;
+            @Button62.performed += instance.OnButton62;
+            @Button62.canceled += instance.OnButton62;
+            @Button63.started += instance.OnButton63;
+            @Button63.performed += instance.OnButton63;
+            @Button63.canceled += instance.OnButton63;
+            @Button64.started += instance.OnButton64;
+            @Button64.performed += instance.OnButton64;
+            @Button64.canceled += instance.OnButton64;
+            @Button65.started += instance.OnButton65;
+            @Button65.performed += instance.OnButton65;
+            @Button65.canceled += instance.OnButton65;
+            @Button66.started += instance.OnButton66;
+            @Button66.performed += instance.OnButton66;
+            @Button66.canceled += instance.OnButton66;
+            @Button67.started += instance.OnButton67;
+            @Button67.performed += instance.OnButton67;
+            @Button67.canceled += instance.OnButton67;
+            @Button70.started += instance.OnButton70;
+            @Button70.performed += instance.OnButton70;
+            @Button70.canceled += instance.OnButton70;
+            @Button71.started += instance.OnButton71;
+            @Button71.performed += instance.OnButton71;
+            @Button71.canceled += instance.OnButton71;
+            @Button72.started += instance.OnButton72;
+            @Button72.performed += instance.OnButton72;
+            @Button72.canceled += instance.OnButton72;
+            @Button73.started += instance.OnButton73;
+            @Button73.performed += instance.OnButton73;
+            @Button73.canceled += instance.OnButton73;
+            @Button74.started += instance.OnButton74;
+            @Button74.performed += instance.OnButton74;
+            @Button74.canceled += instance.OnButton74;
+            @Button75.started += instance.OnButton75;
+            @Button75.performed += instance.OnButton75;
+            @Button75.canceled += instance.OnButton75;
+            @Button76.started += instance.OnButton76;
+            @Button76.performed += instance.OnButton76;
+            @Button76.canceled += instance.OnButton76;
+            @Button77.started += instance.OnButton77;
+            @Button77.performed += instance.OnButton77;
+            @Button77.canceled += instance.OnButton77;
         }
 
         private void UnregisterCallbacks(IAPCMiniActions instance)
         {
-            @_11.started -= instance.On_11;
-            @_11.performed -= instance.On_11;
-            @_11.canceled -= instance.On_11;
-            @_12.started -= instance.On_12;
-            @_12.performed -= instance.On_12;
-            @_12.canceled -= instance.On_12;
-            @_13.started -= instance.On_13;
-            @_13.performed -= instance.On_13;
-            @_13.canceled -= instance.On_13;
-            @_14.started -= instance.On_14;
-            @_14.performed -= instance.On_14;
-            @_14.canceled -= instance.On_14;
-            @_15.started -= instance.On_15;
-            @_15.performed -= instance.On_15;
-            @_15.canceled -= instance.On_15;
-            @_16.started -= instance.On_16;
-            @_16.performed -= instance.On_16;
-            @_16.canceled -= instance.On_16;
-            @_17.started -= instance.On_17;
-            @_17.performed -= instance.On_17;
-            @_17.canceled -= instance.On_17;
-            @_18.started -= instance.On_18;
-            @_18.performed -= instance.On_18;
-            @_18.canceled -= instance.On_18;
-            @_21.started -= instance.On_21;
-            @_21.performed -= instance.On_21;
-            @_21.canceled -= instance.On_21;
+            @Button00.started -= instance.OnButton00;
+            @Button00.performed -= instance.OnButton00;
+            @Button00.canceled -= instance.OnButton00;
+            @Button01.started -= instance.OnButton01;
+            @Button01.performed -= instance.OnButton01;
+            @Button01.canceled -= instance.OnButton01;
+            @Button02.started -= instance.OnButton02;
+            @Button02.performed -= instance.OnButton02;
+            @Button02.canceled -= instance.OnButton02;
+            @Button03.started -= instance.OnButton03;
+            @Button03.performed -= instance.OnButton03;
+            @Button03.canceled -= instance.OnButton03;
+            @Button04.started -= instance.OnButton04;
+            @Button04.performed -= instance.OnButton04;
+            @Button04.canceled -= instance.OnButton04;
+            @Button05.started -= instance.OnButton05;
+            @Button05.performed -= instance.OnButton05;
+            @Button05.canceled -= instance.OnButton05;
+            @Button06.started -= instance.OnButton06;
+            @Button06.performed -= instance.OnButton06;
+            @Button06.canceled -= instance.OnButton06;
+            @Button07.started -= instance.OnButton07;
+            @Button07.performed -= instance.OnButton07;
+            @Button07.canceled -= instance.OnButton07;
+            @Button10.started -= instance.OnButton10;
+            @Button10.performed -= instance.OnButton10;
+            @Button10.canceled -= instance.OnButton10;
+            @Button11.started -= instance.OnButton11;
+            @Button11.performed -= instance.OnButton11;
+            @Button11.canceled -= instance.OnButton11;
+            @Button12.started -= instance.OnButton12;
+            @Button12.performed -= instance.OnButton12;
+            @Button12.canceled -= instance.OnButton12;
+            @Button13.started -= instance.OnButton13;
+            @Button13.performed -= instance.OnButton13;
+            @Button13.canceled -= instance.OnButton13;
+            @Button14.started -= instance.OnButton14;
+            @Button14.performed -= instance.OnButton14;
+            @Button14.canceled -= instance.OnButton14;
+            @Button15.started -= instance.OnButton15;
+            @Button15.performed -= instance.OnButton15;
+            @Button15.canceled -= instance.OnButton15;
+            @Button16.started -= instance.OnButton16;
+            @Button16.performed -= instance.OnButton16;
+            @Button16.canceled -= instance.OnButton16;
+            @Button17.started -= instance.OnButton17;
+            @Button17.performed -= instance.OnButton17;
+            @Button17.canceled -= instance.OnButton17;
+            @Button20.started -= instance.OnButton20;
+            @Button20.performed -= instance.OnButton20;
+            @Button20.canceled -= instance.OnButton20;
+            @Button21.started -= instance.OnButton21;
+            @Button21.performed -= instance.OnButton21;
+            @Button21.canceled -= instance.OnButton21;
+            @Button22.started -= instance.OnButton22;
+            @Button22.performed -= instance.OnButton22;
+            @Button22.canceled -= instance.OnButton22;
+            @Button23.started -= instance.OnButton23;
+            @Button23.performed -= instance.OnButton23;
+            @Button23.canceled -= instance.OnButton23;
+            @Button24.started -= instance.OnButton24;
+            @Button24.performed -= instance.OnButton24;
+            @Button24.canceled -= instance.OnButton24;
+            @Button25.started -= instance.OnButton25;
+            @Button25.performed -= instance.OnButton25;
+            @Button25.canceled -= instance.OnButton25;
+            @Button26.started -= instance.OnButton26;
+            @Button26.performed -= instance.OnButton26;
+            @Button26.canceled -= instance.OnButton26;
+            @Button27.started -= instance.OnButton27;
+            @Button27.performed -= instance.OnButton27;
+            @Button27.canceled -= instance.OnButton27;
+            @Button30.started -= instance.OnButton30;
+            @Button30.performed -= instance.OnButton30;
+            @Button30.canceled -= instance.OnButton30;
+            @Button31.started -= instance.OnButton31;
+            @Button31.performed -= instance.OnButton31;
+            @Button31.canceled -= instance.OnButton31;
+            @Button32.started -= instance.OnButton32;
+            @Button32.performed -= instance.OnButton32;
+            @Button32.canceled -= instance.OnButton32;
+            @Button33.started -= instance.OnButton33;
+            @Button33.performed -= instance.OnButton33;
+            @Button33.canceled -= instance.OnButton33;
+            @Button34.started -= instance.OnButton34;
+            @Button34.performed -= instance.OnButton34;
+            @Button34.canceled -= instance.OnButton34;
+            @Button35.started -= instance.OnButton35;
+            @Button35.performed -= instance.OnButton35;
+            @Button35.canceled -= instance.OnButton35;
+            @Button36.started -= instance.OnButton36;
+            @Button36.performed -= instance.OnButton36;
+            @Button36.canceled -= instance.OnButton36;
+            @Button37.started -= instance.OnButton37;
+            @Button37.performed -= instance.OnButton37;
+            @Button37.canceled -= instance.OnButton37;
+            @Button40.started -= instance.OnButton40;
+            @Button40.performed -= instance.OnButton40;
+            @Button40.canceled -= instance.OnButton40;
+            @Button41.started -= instance.OnButton41;
+            @Button41.performed -= instance.OnButton41;
+            @Button41.canceled -= instance.OnButton41;
+            @Button42.started -= instance.OnButton42;
+            @Button42.performed -= instance.OnButton42;
+            @Button42.canceled -= instance.OnButton42;
+            @Button43.started -= instance.OnButton43;
+            @Button43.performed -= instance.OnButton43;
+            @Button43.canceled -= instance.OnButton43;
+            @Button44.started -= instance.OnButton44;
+            @Button44.performed -= instance.OnButton44;
+            @Button44.canceled -= instance.OnButton44;
+            @Button45.started -= instance.OnButton45;
+            @Button45.performed -= instance.OnButton45;
+            @Button45.canceled -= instance.OnButton45;
+            @Button46.started -= instance.OnButton46;
+            @Button46.performed -= instance.OnButton46;
+            @Button46.canceled -= instance.OnButton46;
+            @Button47.started -= instance.OnButton47;
+            @Button47.performed -= instance.OnButton47;
+            @Button47.canceled -= instance.OnButton47;
+            @Button50.started -= instance.OnButton50;
+            @Button50.performed -= instance.OnButton50;
+            @Button50.canceled -= instance.OnButton50;
+            @Button51.started -= instance.OnButton51;
+            @Button51.performed -= instance.OnButton51;
+            @Button51.canceled -= instance.OnButton51;
+            @Button52.started -= instance.OnButton52;
+            @Button52.performed -= instance.OnButton52;
+            @Button52.canceled -= instance.OnButton52;
+            @Button53.started -= instance.OnButton53;
+            @Button53.performed -= instance.OnButton53;
+            @Button53.canceled -= instance.OnButton53;
+            @Button54.started -= instance.OnButton54;
+            @Button54.performed -= instance.OnButton54;
+            @Button54.canceled -= instance.OnButton54;
+            @Button55.started -= instance.OnButton55;
+            @Button55.performed -= instance.OnButton55;
+            @Button55.canceled -= instance.OnButton55;
+            @Button56.started -= instance.OnButton56;
+            @Button56.performed -= instance.OnButton56;
+            @Button56.canceled -= instance.OnButton56;
+            @Button57.started -= instance.OnButton57;
+            @Button57.performed -= instance.OnButton57;
+            @Button57.canceled -= instance.OnButton57;
+            @Button60.started -= instance.OnButton60;
+            @Button60.performed -= instance.OnButton60;
+            @Button60.canceled -= instance.OnButton60;
+            @Button61.started -= instance.OnButton61;
+            @Button61.performed -= instance.OnButton61;
+            @Button61.canceled -= instance.OnButton61;
+            @Button62.started -= instance.OnButton62;
+            @Button62.performed -= instance.OnButton62;
+            @Button62.canceled -= instance.OnButton62;
+            @Button63.started -= instance.OnButton63;
+            @Button63.performed -= instance.OnButton63;
+            @Button63.canceled -= instance.OnButton63;
+            @Button64.started -= instance.OnButton64;
+            @Button64.performed -= instance.OnButton64;
+            @Button64.canceled -= instance.OnButton64;
+            @Button65.started -= instance.OnButton65;
+            @Button65.performed -= instance.OnButton65;
+            @Button65.canceled -= instance.OnButton65;
+            @Button66.started -= instance.OnButton66;
+            @Button66.performed -= instance.OnButton66;
+            @Button66.canceled -= instance.OnButton66;
+            @Button67.started -= instance.OnButton67;
+            @Button67.performed -= instance.OnButton67;
+            @Button67.canceled -= instance.OnButton67;
+            @Button70.started -= instance.OnButton70;
+            @Button70.performed -= instance.OnButton70;
+            @Button70.canceled -= instance.OnButton70;
+            @Button71.started -= instance.OnButton71;
+            @Button71.performed -= instance.OnButton71;
+            @Button71.canceled -= instance.OnButton71;
+            @Button72.started -= instance.OnButton72;
+            @Button72.performed -= instance.OnButton72;
+            @Button72.canceled -= instance.OnButton72;
+            @Button73.started -= instance.OnButton73;
+            @Button73.performed -= instance.OnButton73;
+            @Button73.canceled -= instance.OnButton73;
+            @Button74.started -= instance.OnButton74;
+            @Button74.performed -= instance.OnButton74;
+            @Button74.canceled -= instance.OnButton74;
+            @Button75.started -= instance.OnButton75;
+            @Button75.performed -= instance.OnButton75;
+            @Button75.canceled -= instance.OnButton75;
+            @Button76.started -= instance.OnButton76;
+            @Button76.performed -= instance.OnButton76;
+            @Button76.canceled -= instance.OnButton76;
+            @Button77.started -= instance.OnButton77;
+            @Button77.performed -= instance.OnButton77;
+            @Button77.canceled -= instance.OnButton77;
         }
 
         public void RemoveCallbacks(IAPCMiniActions instance)
@@ -1906,6 +3784,148 @@ public partial class @PlayerControllsTest: IInputActionCollection2, IDisposable
         }
     }
     public APCMovementActions @APCMovement => new APCMovementActions(this);
+
+    // APCMisc
+    private readonly InputActionMap m_APCMisc;
+    private List<IAPCMiscActions> m_APCMiscActionsCallbackInterfaces = new List<IAPCMiscActions>();
+    private readonly InputAction m_APCMisc_ClipStop;
+    private readonly InputAction m_APCMisc_Solo;
+    private readonly InputAction m_APCMisc_RecArm;
+    private readonly InputAction m_APCMisc_Mute;
+    private readonly InputAction m_APCMisc_Select;
+    private readonly InputAction m_APCMisc_Extra1;
+    private readonly InputAction m_APCMisc_Extra2;
+    private readonly InputAction m_APCMisc_StopAll;
+    private readonly InputAction m_APCMisc_Shift;
+    private readonly InputAction m_APCMisc_Volume;
+    private readonly InputAction m_APCMisc_Pan;
+    private readonly InputAction m_APCMisc_Send;
+    private readonly InputAction m_APCMisc_Device;
+    public struct APCMiscActions
+    {
+        private @PlayerControllsTest m_Wrapper;
+        public APCMiscActions(@PlayerControllsTest wrapper) { m_Wrapper = wrapper; }
+        public InputAction @ClipStop => m_Wrapper.m_APCMisc_ClipStop;
+        public InputAction @Solo => m_Wrapper.m_APCMisc_Solo;
+        public InputAction @RecArm => m_Wrapper.m_APCMisc_RecArm;
+        public InputAction @Mute => m_Wrapper.m_APCMisc_Mute;
+        public InputAction @Select => m_Wrapper.m_APCMisc_Select;
+        public InputAction @Extra1 => m_Wrapper.m_APCMisc_Extra1;
+        public InputAction @Extra2 => m_Wrapper.m_APCMisc_Extra2;
+        public InputAction @StopAll => m_Wrapper.m_APCMisc_StopAll;
+        public InputAction @Shift => m_Wrapper.m_APCMisc_Shift;
+        public InputAction @Volume => m_Wrapper.m_APCMisc_Volume;
+        public InputAction @Pan => m_Wrapper.m_APCMisc_Pan;
+        public InputAction @Send => m_Wrapper.m_APCMisc_Send;
+        public InputAction @Device => m_Wrapper.m_APCMisc_Device;
+        public InputActionMap Get() { return m_Wrapper.m_APCMisc; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(APCMiscActions set) { return set.Get(); }
+        public void AddCallbacks(IAPCMiscActions instance)
+        {
+            if (instance == null || m_Wrapper.m_APCMiscActionsCallbackInterfaces.Contains(instance)) return;
+            m_Wrapper.m_APCMiscActionsCallbackInterfaces.Add(instance);
+            @ClipStop.started += instance.OnClipStop;
+            @ClipStop.performed += instance.OnClipStop;
+            @ClipStop.canceled += instance.OnClipStop;
+            @Solo.started += instance.OnSolo;
+            @Solo.performed += instance.OnSolo;
+            @Solo.canceled += instance.OnSolo;
+            @RecArm.started += instance.OnRecArm;
+            @RecArm.performed += instance.OnRecArm;
+            @RecArm.canceled += instance.OnRecArm;
+            @Mute.started += instance.OnMute;
+            @Mute.performed += instance.OnMute;
+            @Mute.canceled += instance.OnMute;
+            @Select.started += instance.OnSelect;
+            @Select.performed += instance.OnSelect;
+            @Select.canceled += instance.OnSelect;
+            @Extra1.started += instance.OnExtra1;
+            @Extra1.performed += instance.OnExtra1;
+            @Extra1.canceled += instance.OnExtra1;
+            @Extra2.started += instance.OnExtra2;
+            @Extra2.performed += instance.OnExtra2;
+            @Extra2.canceled += instance.OnExtra2;
+            @StopAll.started += instance.OnStopAll;
+            @StopAll.performed += instance.OnStopAll;
+            @StopAll.canceled += instance.OnStopAll;
+            @Shift.started += instance.OnShift;
+            @Shift.performed += instance.OnShift;
+            @Shift.canceled += instance.OnShift;
+            @Volume.started += instance.OnVolume;
+            @Volume.performed += instance.OnVolume;
+            @Volume.canceled += instance.OnVolume;
+            @Pan.started += instance.OnPan;
+            @Pan.performed += instance.OnPan;
+            @Pan.canceled += instance.OnPan;
+            @Send.started += instance.OnSend;
+            @Send.performed += instance.OnSend;
+            @Send.canceled += instance.OnSend;
+            @Device.started += instance.OnDevice;
+            @Device.performed += instance.OnDevice;
+            @Device.canceled += instance.OnDevice;
+        }
+
+        private void UnregisterCallbacks(IAPCMiscActions instance)
+        {
+            @ClipStop.started -= instance.OnClipStop;
+            @ClipStop.performed -= instance.OnClipStop;
+            @ClipStop.canceled -= instance.OnClipStop;
+            @Solo.started -= instance.OnSolo;
+            @Solo.performed -= instance.OnSolo;
+            @Solo.canceled -= instance.OnSolo;
+            @RecArm.started -= instance.OnRecArm;
+            @RecArm.performed -= instance.OnRecArm;
+            @RecArm.canceled -= instance.OnRecArm;
+            @Mute.started -= instance.OnMute;
+            @Mute.performed -= instance.OnMute;
+            @Mute.canceled -= instance.OnMute;
+            @Select.started -= instance.OnSelect;
+            @Select.performed -= instance.OnSelect;
+            @Select.canceled -= instance.OnSelect;
+            @Extra1.started -= instance.OnExtra1;
+            @Extra1.performed -= instance.OnExtra1;
+            @Extra1.canceled -= instance.OnExtra1;
+            @Extra2.started -= instance.OnExtra2;
+            @Extra2.performed -= instance.OnExtra2;
+            @Extra2.canceled -= instance.OnExtra2;
+            @StopAll.started -= instance.OnStopAll;
+            @StopAll.performed -= instance.OnStopAll;
+            @StopAll.canceled -= instance.OnStopAll;
+            @Shift.started -= instance.OnShift;
+            @Shift.performed -= instance.OnShift;
+            @Shift.canceled -= instance.OnShift;
+            @Volume.started -= instance.OnVolume;
+            @Volume.performed -= instance.OnVolume;
+            @Volume.canceled -= instance.OnVolume;
+            @Pan.started -= instance.OnPan;
+            @Pan.performed -= instance.OnPan;
+            @Pan.canceled -= instance.OnPan;
+            @Send.started -= instance.OnSend;
+            @Send.performed -= instance.OnSend;
+            @Send.canceled -= instance.OnSend;
+            @Device.started -= instance.OnDevice;
+            @Device.performed -= instance.OnDevice;
+            @Device.canceled -= instance.OnDevice;
+        }
+
+        public void RemoveCallbacks(IAPCMiscActions instance)
+        {
+            if (m_Wrapper.m_APCMiscActionsCallbackInterfaces.Remove(instance))
+                UnregisterCallbacks(instance);
+        }
+
+        public void SetCallbacks(IAPCMiscActions instance)
+        {
+            foreach (var item in m_Wrapper.m_APCMiscActionsCallbackInterfaces)
+                UnregisterCallbacks(item);
+            m_Wrapper.m_APCMiscActionsCallbackInterfaces.Clear();
+            AddCallbacks(instance);
+        }
+    }
+    public APCMiscActions @APCMisc => new APCMiscActions(this);
     private int m_KeyboardMouseSchemeIndex = -1;
     public InputControlScheme KeyboardMouseScheme
     {
@@ -1972,15 +3992,70 @@ public partial class @PlayerControllsTest: IInputActionCollection2, IDisposable
     }
     public interface IAPCMiniActions
     {
-        void On_11(InputAction.CallbackContext context);
-        void On_12(InputAction.CallbackContext context);
-        void On_13(InputAction.CallbackContext context);
-        void On_14(InputAction.CallbackContext context);
-        void On_15(InputAction.CallbackContext context);
-        void On_16(InputAction.CallbackContext context);
-        void On_17(InputAction.CallbackContext context);
-        void On_18(InputAction.CallbackContext context);
-        void On_21(InputAction.CallbackContext context);
+        void OnButton00(InputAction.CallbackContext context);
+        void OnButton01(InputAction.CallbackContext context);
+        void OnButton02(InputAction.CallbackContext context);
+        void OnButton03(InputAction.CallbackContext context);
+        void OnButton04(InputAction.CallbackContext context);
+        void OnButton05(InputAction.CallbackContext context);
+        void OnButton06(InputAction.CallbackContext context);
+        void OnButton07(InputAction.CallbackContext context);
+        void OnButton10(InputAction.CallbackContext context);
+        void OnButton11(InputAction.CallbackContext context);
+        void OnButton12(InputAction.CallbackContext context);
+        void OnButton13(InputAction.CallbackContext context);
+        void OnButton14(InputAction.CallbackContext context);
+        void OnButton15(InputAction.CallbackContext context);
+        void OnButton16(InputAction.CallbackContext context);
+        void OnButton17(InputAction.CallbackContext context);
+        void OnButton20(InputAction.CallbackContext context);
+        void OnButton21(InputAction.CallbackContext context);
+        void OnButton22(InputAction.CallbackContext context);
+        void OnButton23(InputAction.CallbackContext context);
+        void OnButton24(InputAction.CallbackContext context);
+        void OnButton25(InputAction.CallbackContext context);
+        void OnButton26(InputAction.CallbackContext context);
+        void OnButton27(InputAction.CallbackContext context);
+        void OnButton30(InputAction.CallbackContext context);
+        void OnButton31(InputAction.CallbackContext context);
+        void OnButton32(InputAction.CallbackContext context);
+        void OnButton33(InputAction.CallbackContext context);
+        void OnButton34(InputAction.CallbackContext context);
+        void OnButton35(InputAction.CallbackContext context);
+        void OnButton36(InputAction.CallbackContext context);
+        void OnButton37(InputAction.CallbackContext context);
+        void OnButton40(InputAction.CallbackContext context);
+        void OnButton41(InputAction.CallbackContext context);
+        void OnButton42(InputAction.CallbackContext context);
+        void OnButton43(InputAction.CallbackContext context);
+        void OnButton44(InputAction.CallbackContext context);
+        void OnButton45(InputAction.CallbackContext context);
+        void OnButton46(InputAction.CallbackContext context);
+        void OnButton47(InputAction.CallbackContext context);
+        void OnButton50(InputAction.CallbackContext context);
+        void OnButton51(InputAction.CallbackContext context);
+        void OnButton52(InputAction.CallbackContext context);
+        void OnButton53(InputAction.CallbackContext context);
+        void OnButton54(InputAction.CallbackContext context);
+        void OnButton55(InputAction.CallbackContext context);
+        void OnButton56(InputAction.CallbackContext context);
+        void OnButton57(InputAction.CallbackContext context);
+        void OnButton60(InputAction.CallbackContext context);
+        void OnButton61(InputAction.CallbackContext context);
+        void OnButton62(InputAction.CallbackContext context);
+        void OnButton63(InputAction.CallbackContext context);
+        void OnButton64(InputAction.CallbackContext context);
+        void OnButton65(InputAction.CallbackContext context);
+        void OnButton66(InputAction.CallbackContext context);
+        void OnButton67(InputAction.CallbackContext context);
+        void OnButton70(InputAction.CallbackContext context);
+        void OnButton71(InputAction.CallbackContext context);
+        void OnButton72(InputAction.CallbackContext context);
+        void OnButton73(InputAction.CallbackContext context);
+        void OnButton74(InputAction.CallbackContext context);
+        void OnButton75(InputAction.CallbackContext context);
+        void OnButton76(InputAction.CallbackContext context);
+        void OnButton77(InputAction.CallbackContext context);
     }
     public interface IAPCSlidersActions
     {
@@ -1997,5 +4072,21 @@ public partial class @PlayerControllsTest: IInputActionCollection2, IDisposable
     public interface IAPCMovementActions
     {
         void OnMidiMove(InputAction.CallbackContext context);
+    }
+    public interface IAPCMiscActions
+    {
+        void OnClipStop(InputAction.CallbackContext context);
+        void OnSolo(InputAction.CallbackContext context);
+        void OnRecArm(InputAction.CallbackContext context);
+        void OnMute(InputAction.CallbackContext context);
+        void OnSelect(InputAction.CallbackContext context);
+        void OnExtra1(InputAction.CallbackContext context);
+        void OnExtra2(InputAction.CallbackContext context);
+        void OnStopAll(InputAction.CallbackContext context);
+        void OnShift(InputAction.CallbackContext context);
+        void OnVolume(InputAction.CallbackContext context);
+        void OnPan(InputAction.CallbackContext context);
+        void OnSend(InputAction.CallbackContext context);
+        void OnDevice(InputAction.CallbackContext context);
     }
 }

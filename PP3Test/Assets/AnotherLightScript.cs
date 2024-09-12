@@ -12,6 +12,7 @@ public class AnotherLightScript : MonoBehaviour
 
     private OutputDevice outputDevice;
     private const string APCMiniName = "APC MINI"; // The exact name of your APC Mini
+   
 
     void Start()
     {
@@ -23,20 +24,21 @@ public class AnotherLightScript : MonoBehaviour
             Debug.LogError("APC Mini not found!");
             return;
         }
-
-        // Example: Turn on the LED for the grid button at (0, 0) with green color
-        SetGridButtonLight(0, 0, 1); // Green
-
-        // Example: Turn on the LED for the grid button at (1, 1) with red color
-        SetGridButtonLight(1, 2, 3); // Red
-        SetGridButtonLight(1, 1, 1);
-        SetGridButtonLight(1, 3, 5); 
-
-        // Example: Turn off the LED for the grid button at (0, 0)
-        SetGridButtonLight(0, 0, 0); // Off
+        else
+        {
+            // deactivate all lights at start of use
+            for (int i = 0; i < 8; i++)
+            {
+                for (int j = 0; j < 8; j++)
+                {
+                    SetGridButtonLight(i, j, 0);
+                }
+            }
+        }
+       
     }
 
-    void SetGridButtonLight(int x, int y, int color)
+    public void SetGridButtonLight(int x, int y, int color)
     {
         // APC Mini uses notes 0-63 for grid buttons
         int note = GetNoteFromGridPosition(x, y);
@@ -45,6 +47,8 @@ public class AnotherLightScript : MonoBehaviour
         {
             // Send a MIDI Note On message with the color as velocity
             var noteOnEvent = new NoteOnEvent((SevenBitNumber)note, (SevenBitNumber)color);
+            Debug.Log(outputDevice);
+            Debug.Log(noteOnEvent);
             outputDevice.SendEvent(noteOnEvent);
             Debug.Log($"Sent Note On: Button ({x},{y}) - Note: {note}, Color: {color}");
         }
@@ -84,5 +88,56 @@ public class AnotherLightScript : MonoBehaviour
         {
             outputDevice.Dispose();
         }
+    }
+
+    public void DeactivateAll()
+    {
+
+        for (int i = 0; i < 8; i++)
+        {
+            for (int j = 0; j < 8; j++)
+            {
+                SetGridButtonLight(i, j, 0);
+            }
+        }
+
+    }
+    public void AllRed()
+    {
+
+        for (int i = 0; i < 8; i++)
+        {
+            for (int j = 0; j < 8; j++)
+            {
+                SetGridButtonLight(i, j, 3);
+            }
+        }
+
+    }
+
+    public void AllOrange()
+    {
+
+        for (int i = 0; i < 8; i++)
+        {
+            for (int j = 0; j < 8; j++)
+            {
+                SetGridButtonLight(i, j, 5);
+            }
+        }
+
+    }
+
+    public void AllGreen()
+    {
+
+        for (int i = 0; i < 8; i++)
+        {
+            for (int j = 0; j < 8; j++)
+            {
+                SetGridButtonLight(i, j, 1);
+            }
+        }
+
     }
 }
