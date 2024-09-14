@@ -3,8 +3,10 @@ using UnityEngine.InputSystem;
 
 sealed class ScaleByInputValue : MonoBehaviour
 {
-    [SerializeField] Transform _transform = null;
-    [SerializeField] InputAction _action = null;
+    [SerializeField] 
+    Transform _transform = null;
+    [SerializeField] 
+    InputAction _action = null;
 
     void OnEnable()
     {

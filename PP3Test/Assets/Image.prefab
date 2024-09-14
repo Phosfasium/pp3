@@ -86,7 +86,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1337283908007926436}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5670390f7f353f4582ba04b222516a0, type: 3}
+  m_Script: {fileID: 11500000, guid: f7bcda5011128d04daaaf15597f1c997, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   LightX: 0
@@ -96,18 +96,10 @@ MonoBehaviour:
     m_Name: Button Trigger
     m_Type: 0
     m_ExpectedControlType: 
-    m_Id: ac7964d8-621c-4c17-80f2-16b2f07badcc
+    m_Id: 1fca2749-8b35-453d-84a6-29f9cd40eef7
     m_Processors: 
     m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 
-      m_Id: 1364a58e-05d7-435f-8b09-462154a87c00
-      m_Path: <MidiDevice>/note000
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Button Trigger
-      m_Flags: 0
+    m_SingletonActionBindings: []
     m_Flags: 0
   LightScript: {fileID: 0}
   newButton: {fileID: 1337283908007926436}

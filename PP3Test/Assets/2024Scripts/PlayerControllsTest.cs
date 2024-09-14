@@ -2282,6 +2282,42 @@ public partial class @PlayerControllsTest: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Up"",
+                    ""type"": ""Button"",
+                    ""id"": ""b5e87748-8c64-4916-8627-26241ea1caff"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Down"",
+                    ""type"": ""Button"",
+                    ""id"": ""3e2c64ac-acae-47be-9fb4-9f89051ce754"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Left"",
+                    ""type"": ""Button"",
+                    ""id"": ""4f2c10b1-9f12-4ab1-83b7-bdee441df78a"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Right"",
+                    ""type"": ""Button"",
+                    ""id"": ""24a6223c-84a5-4216-95bc-1edc8f45f2a3"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -2394,6 +2430,94 @@ public partial class @PlayerControllsTest: IInputActionCollection2, IDisposable
                     ""action"": ""MidiMove"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""68d53289-0efd-4301-8219-771f87c01eda"",
+                    ""path"": ""<MidiDevice>/note064"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Up"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""94fafe1d-c6e8-4328-9fe0-18d9abbd38bf"",
+                    ""path"": ""<Keyboard>/upArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Up"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""2351cf6d-066c-4e68-a83b-980ca90b0da3"",
+                    ""path"": ""<MidiDevice>/note065"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Down"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""565e0ad0-8009-4c8f-99bb-857b8e1ef713"",
+                    ""path"": ""<Keyboard>/downArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Down"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""7234b49a-63f1-4d98-9bb3-8f34b214ff56"",
+                    ""path"": ""<MidiDevice>/note066"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Left"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ed2b67d1-9cf5-4c99-9ee7-0f4c77fc92e0"",
+                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Left"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""fc833fd9-2149-4645-8d86-5bf31df38c4e"",
+                    ""path"": ""<MidiDevice>/note067"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Right"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ee918813-0812-471a-b504-46ab292c2e1a"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Right"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         },
@@ -2826,6 +2950,10 @@ public partial class @PlayerControllsTest: IInputActionCollection2, IDisposable
         // APCMovement
         m_APCMovement = asset.FindActionMap("APCMovement", throwIfNotFound: true);
         m_APCMovement_MidiMove = m_APCMovement.FindAction("MidiMove", throwIfNotFound: true);
+        m_APCMovement_Up = m_APCMovement.FindAction("Up", throwIfNotFound: true);
+        m_APCMovement_Down = m_APCMovement.FindAction("Down", throwIfNotFound: true);
+        m_APCMovement_Left = m_APCMovement.FindAction("Left", throwIfNotFound: true);
+        m_APCMovement_Right = m_APCMovement.FindAction("Right", throwIfNotFound: true);
         // APCMisc
         m_APCMisc = asset.FindActionMap("APCMisc", throwIfNotFound: true);
         m_APCMisc_ClipStop = m_APCMisc.FindAction("ClipStop", throwIfNotFound: true);
@@ -3743,11 +3871,19 @@ public partial class @PlayerControllsTest: IInputActionCollection2, IDisposable
     private readonly InputActionMap m_APCMovement;
     private List<IAPCMovementActions> m_APCMovementActionsCallbackInterfaces = new List<IAPCMovementActions>();
     private readonly InputAction m_APCMovement_MidiMove;
+    private readonly InputAction m_APCMovement_Up;
+    private readonly InputAction m_APCMovement_Down;
+    private readonly InputAction m_APCMovement_Left;
+    private readonly InputAction m_APCMovement_Right;
     public struct APCMovementActions
     {
         private @PlayerControllsTest m_Wrapper;
         public APCMovementActions(@PlayerControllsTest wrapper) { m_Wrapper = wrapper; }
         public InputAction @MidiMove => m_Wrapper.m_APCMovement_MidiMove;
+        public InputAction @Up => m_Wrapper.m_APCMovement_Up;
+        public InputAction @Down => m_Wrapper.m_APCMovement_Down;
+        public InputAction @Left => m_Wrapper.m_APCMovement_Left;
+        public InputAction @Right => m_Wrapper.m_APCMovement_Right;
         public InputActionMap Get() { return m_Wrapper.m_APCMovement; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -3760,6 +3896,18 @@ public partial class @PlayerControllsTest: IInputActionCollection2, IDisposable
             @MidiMove.started += instance.OnMidiMove;
             @MidiMove.performed += instance.OnMidiMove;
             @MidiMove.canceled += instance.OnMidiMove;
+            @Up.started += instance.OnUp;
+            @Up.performed += instance.OnUp;
+            @Up.canceled += instance.OnUp;
+            @Down.started += instance.OnDown;
+            @Down.performed += instance.OnDown;
+            @Down.canceled += instance.OnDown;
+            @Left.started += instance.OnLeft;
+            @Left.performed += instance.OnLeft;
+            @Left.canceled += instance.OnLeft;
+            @Right.started += instance.OnRight;
+            @Right.performed += instance.OnRight;
+            @Right.canceled += instance.OnRight;
         }
 
         private void UnregisterCallbacks(IAPCMovementActions instance)
@@ -3767,6 +3915,18 @@ public partial class @PlayerControllsTest: IInputActionCollection2, IDisposable
             @MidiMove.started -= instance.OnMidiMove;
             @MidiMove.performed -= instance.OnMidiMove;
             @MidiMove.canceled -= instance.OnMidiMove;
+            @Up.started -= instance.OnUp;
+            @Up.performed -= instance.OnUp;
+            @Up.canceled -= instance.OnUp;
+            @Down.started -= instance.OnDown;
+            @Down.performed -= instance.OnDown;
+            @Down.canceled -= instance.OnDown;
+            @Left.started -= instance.OnLeft;
+            @Left.performed -= instance.OnLeft;
+            @Left.canceled -= instance.OnLeft;
+            @Right.started -= instance.OnRight;
+            @Right.performed -= instance.OnRight;
+            @Right.canceled -= instance.OnRight;
         }
 
         public void RemoveCallbacks(IAPCMovementActions instance)
@@ -4072,6 +4232,10 @@ public partial class @PlayerControllsTest: IInputActionCollection2, IDisposable
     public interface IAPCMovementActions
     {
         void OnMidiMove(InputAction.CallbackContext context);
+        void OnUp(InputAction.CallbackContext context);
+        void OnDown(InputAction.CallbackContext context);
+        void OnLeft(InputAction.CallbackContext context);
+        void OnRight(InputAction.CallbackContext context);
     }
     public interface IAPCMiscActions
     {

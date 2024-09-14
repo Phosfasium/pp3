@@ -26,6 +26,8 @@ public class simpleMovement : MonoBehaviour
     Vector2 moveDirection = Vector2.zero;
     private float sliderX = 1f;
     private float sliderY = 1f;
+    [SerializeField]
+    private float Size = 1f;
     //private int activated = 0;
 
     private void Awake()
@@ -37,8 +39,8 @@ public class simpleMovement : MonoBehaviour
     {
        // ballControll.Enable();
        // Sliders.Enable();
-       move = playerControll.APCMovement.MidiMove;
-       move.Enable();
+        move = playerControll.APCMovement.MidiMove;
+        move.Enable();
         Slider = playerControll.APCSliders.Slider9;
         Slider.Enable();
         Slider2 = playerControll.APCSliders.Slider8;
@@ -100,7 +102,7 @@ public class simpleMovement : MonoBehaviour
     private void FixedUpdate()
     {
         rb.velocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed);
-        transform.localScale = new Vector3(sliderX + 1, sliderY + 1, 1);
+        transform.localScale = new Vector3(sliderX + Size, sliderY + Size, 1);
 
     }
 

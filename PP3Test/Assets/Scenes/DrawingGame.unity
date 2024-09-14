@@ -2001,7 +2001,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -2294,7 +2294,6 @@ GameObject:
   m_Component:
   - component: {fileID: 652673779}
   - component: {fileID: 652673780}
-  - component: {fileID: 652673781}
   - component: {fileID: 652673782}
   m_Layer: 0
   m_Name: LightMidiControll
@@ -2327,19 +2326,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 652673777}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 558399de23373eb4b89d26567fb268f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &652673781
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 652673777}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 076efd26efb89774f96b48fed766ecfb, type: 3}
+  m_Script: {fileID: 11500000, guid: d9e1ce5dce6b5db43bf1c73c223abd97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &652673782
@@ -2351,7 +2338,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 652673777}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c034c64dd177cee46a623ae7f73d4c11, type: 3}
+  m_Script: {fileID: 11500000, guid: f972cc7a36a5f6440b7fa37fa8a4090c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &665398254
@@ -2804,7 +2791,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 704392010}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -2879,6 +2866,7 @@ MonoBehaviour:
   rb: {fileID: 704392016}
   moveSpeed: 5
   LightScript: {fileID: 652673782}
+  Size: 1
 --- !u!50 &704392016
 Rigidbody2D:
   serializedVersion: 4
@@ -3343,6 +3331,22 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: f97b7885-8cbd-451f-95d7-0aa1c51772f0
     m_ActionName: APCMisc/Device[/MidiDevice/note071]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b5e87748-8c64-4916-8627-26241ea1caff
+    m_ActionName: APCMovement/Up[/MidiDevice/note064,/Keyboard/upArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 3e2c64ac-acae-47be-9fb4-9f89051ce754
+    m_ActionName: APCMovement/Down[/MidiDevice/note065,/Keyboard/downArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 4f2c10b1-9f12-4ab1-83b7-bdee441df78a
+    m_ActionName: APCMovement/Left[/MidiDevice/note066,/Keyboard/leftArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 24a6223c-84a5-4216-95bc-1edc8f45f2a3
+    m_ActionName: APCMovement/Right[/MidiDevice/note067,/Keyboard/rightArrow]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -3357,7 +3361,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 704392010}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01b081233b05d3b48839a9f294ff3e44, type: 3}
+  m_Script: {fileID: 11500000, guid: 8e5f1cecbf1e34749a54058e09c872c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   LightScript: {fileID: 652673782}
@@ -7785,7 +7789,7 @@ RectTransform:
   m_GameObject: {fileID: 1609972682}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.019924005}
-  m_LocalScale: {x: 1.5, y: 1, z: 1}
+  m_LocalScale: {x: 1.7, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 468588156}

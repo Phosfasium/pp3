@@ -50,11 +50,11 @@ public class AnotherLightScript : MonoBehaviour
             Debug.Log(outputDevice);
             Debug.Log(noteOnEvent);
             outputDevice.SendEvent(noteOnEvent);
-            Debug.Log($"Sent Note On: Button ({x},{y}) - Note: {note}, Color: {color}");
+            //Debug.Log($"Sent Note On: Button ({x},{y}) - Note: {note}, Color: {color}");
         }
         else
         {
-            Debug.LogError($"Invalid grid position ({x},{y})");
+           // Debug.LogError($"Invalid grid position ({x},{y})");
         }
     }
 

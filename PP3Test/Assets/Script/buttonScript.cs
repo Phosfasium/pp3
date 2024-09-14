@@ -104,16 +104,19 @@ public class buttonScript : MonoBehaviour
         }
         if (AllRed.triggered)
         {
+            LightLevel = 3;
             LightScript.SetGridButtonLight(LightX, LightY, LightLevel);
             newButton.GetComponent<Image>().color = Color.red;
         }
         if (AllOrange.triggered)
         {
+            LightLevel = 5;
             LightScript.SetGridButtonLight(LightX, LightY, LightLevel);
             newButton.GetComponent<Image>().color = Color.yellow;
         }
         if (AllGreen.triggered)
         {
+            LightLevel = 1;
             LightScript.SetGridButtonLight(LightX, LightY, LightLevel);
             newButton.GetComponent<Image>().color = Color.green;
         }
