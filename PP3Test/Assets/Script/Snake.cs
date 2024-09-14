@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 public class Snake : MonoBehaviour
 {
-    private Vector2 _moveDirection = Vector2.right;
+    private Vector2 _moveDirection = Vector2.zero;
     private bool _gameOver;
     private InputAction Up;
     private InputAction Down;
@@ -25,6 +25,7 @@ public class Snake : MonoBehaviour
     public AnotherLightScript LightScript;
     public food Food;
     public GameObject SquarePrefab;
+    private bool globalControll = true;
 
     private void Awake()
     {
@@ -60,22 +61,27 @@ public class Snake : MonoBehaviour
 
     private void Update()
     {
-        if (Up.triggered)
+        if (globalControll == true)
         {
-            _moveDirection = Vector2.up;
+            if (Up.triggered)
+            {
+                Debug.Log("going up");
+                _moveDirection = Vector2.up;
+            }
+            if (Down.triggered)
+            {
+                _moveDirection = Vector2.down;
+            }
+            if (Left.triggered)
+            {
+                _moveDirection = Vector2.left;
+            }
+            if (Right.triggered)
+            {
+                _moveDirection = Vector2.right;
+            }
         }
-        if (Down.triggered)
-        {
-            _moveDirection = Vector2.down;
-                    }
-        if (Left.triggered)
-        {
-            _moveDirection = Vector2.left;
-        }
-        if (Right.triggered)
-        {
-            _moveDirection = Vector2.right;
-        }
+        
         if (_gameOver == true)
         {
             if (Reset.triggered)
@@ -87,7 +93,7 @@ public class Snake : MonoBehaviour
                 LightScript.DeactivateAll();
                 this.transform.position = Vector3.zero;
                 Food.RandomizePosition();
-
+                globalControll = true;
             }
 
         }
@@ -157,7 +163,7 @@ public class Snake : MonoBehaviour
         {
             Destroy(_segments[i].gameObject);
         }
-
+        globalControll = false;
         _segments.Clear();
         _segments.Add(this.transform);
     }

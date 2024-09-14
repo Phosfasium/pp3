@@ -97,12 +97,14 @@ public class simpleMovement : MonoBehaviour
         {
             LightScript.AllGreen();
         }
+
+        
+        transform.localScale = new Vector3(sliderX + Size, sliderY + Size, 1);
     }
 
     private void FixedUpdate()
     {
         rb.velocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed);
-        transform.localScale = new Vector3(sliderX + Size, sliderY + Size, 1);
 
     }
 

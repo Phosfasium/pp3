@@ -47,8 +47,8 @@ public class AnotherLightScript : MonoBehaviour
         {
             // Send a MIDI Note On message with the color as velocity
             var noteOnEvent = new NoteOnEvent((SevenBitNumber)note, (SevenBitNumber)color);
-            Debug.Log(outputDevice);
-            Debug.Log(noteOnEvent);
+            //Debug.Log(outputDevice);
+            //Debug.Log(noteOnEvent);
             outputDevice.SendEvent(noteOnEvent);
             //Debug.Log($"Sent Note On: Button ({x},{y}) - Note: {note}, Color: {color}");
         }
