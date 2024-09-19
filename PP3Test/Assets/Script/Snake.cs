@@ -30,6 +30,7 @@ public class Snake : MonoBehaviour
     public bool TargetReached = true;
     private Transform PlayerTransform;
     public Transform TargetTransform = null;
+    private bool xFirst;
 
     //[Header("Timer")]
     //private float timer = 0;
@@ -69,15 +70,20 @@ public class Snake : MonoBehaviour
     {
         _segments = new List<Transform>();
         _segments.Add(this.transform);
+
     }
 
     private void Update()
     {
+        Debug.Log(TargetTransform.position);
+
+
+
         if (globalControll == true)
         {
             if (Up.triggered)
             {
-                Debug.Log("going up");
+               
                 _moveDirection = Vector2.up;
             }
             if (Down.triggered)
@@ -115,36 +121,72 @@ public class Snake : MonoBehaviour
 
         if (globalControll)
         {
-            if (PlayerTransform.position != TargetTransform.position && TargetReached == false)
+            if (PlayerTransform.position != TargetTransform.position && TargetReached == false )
             {
-                if ((Mathf.Abs(PlayerTransform.position.x - TargetTransform.position.x)) >= (Mathf.Abs(PlayerTransform.position.y - TargetTransform.position.y)))
+                if (xFirst)
                 {
-
-                    if (PlayerTransform.position.x < TargetTransform.position.x)
+                    if ((Mathf.Abs(PlayerTransform.position.x - TargetTransform.position.x)) > (Mathf.Abs(PlayerTransform.position.y - TargetTransform.position.y)))
                     {
 
-                        _moveDirection = Vector2.right;
+                        if (PlayerTransform.position.x < TargetTransform.position.x)
+                        {
+
+                            _moveDirection = Vector2.right;
+                        }
+                        else
+                        {
+
+                            _moveDirection = Vector2.left;
+                        }
                     }
-                    else
+                    else if ((Mathf.Abs(PlayerTransform.position.x - TargetTransform.position.x)) <= (Mathf.Abs(PlayerTransform.position.y - TargetTransform.position.y)))
                     {
+                        if (PlayerTransform.position.y < TargetTransform.position.y)
+                        {
 
-                        _moveDirection = Vector2.left;
+                            _moveDirection = Vector2.up;
+
+                        }
+                        else
+                        {
+
+                            _moveDirection = Vector2.down;
+                        }
                     }
                 }
-                else if ((Mathf.Abs(PlayerTransform.position.x - TargetTransform.position.x)) < (Mathf.Abs(PlayerTransform.position.y - TargetTransform.position.y)))
+
+                else if (!xFirst)
                 {
-                    if (PlayerTransform.position.y < TargetTransform.position.y)
+                    if ((Mathf.Abs(PlayerTransform.position.x - TargetTransform.position.x)) >= (Mathf.Abs(PlayerTransform.position.y - TargetTransform.position.y)))
                     {
 
-                        _moveDirection = Vector2.up;
+                        if (PlayerTransform.position.x < TargetTransform.position.x)
+                        {
 
+                            _moveDirection = Vector2.right;
+                        }
+                        else
+                        {
+
+                            _moveDirection = Vector2.left;
+                        }
                     }
-                    else
+                    else if ((Mathf.Abs(PlayerTransform.position.x - TargetTransform.position.x)) < (Mathf.Abs(PlayerTransform.position.y - TargetTransform.position.y)))
                     {
+                        if (PlayerTransform.position.y < TargetTransform.position.y)
+                        {
 
-                        _moveDirection = Vector2.down;
+                            _moveDirection = Vector2.up;
+
+                        }
+                        else
+                        {
+
+                            _moveDirection = Vector2.down;
+                        }
                     }
                 }
+                
             }
 
         }
@@ -154,7 +196,7 @@ public class Snake : MonoBehaviour
         {
             TargetReached = true;
             TargetTransform = PlayerTransform;
-            Debug.Log("targetReached");
+            //Debug.Log("targetReached");
         }
 
         //timer += Time.deltaTime;
@@ -182,8 +224,15 @@ public class Snake : MonoBehaviour
         TargetTransform = GridSquareSelected;
         TargetReached = false;
         Debug.Log(TargetTransform.position.x);
-
-
+        if ((Mathf.Abs(PlayerTransform.position.x - TargetTransform.position.x)) >= (Mathf.Abs(PlayerTransform.position.y - TargetTransform.position.y)))
+        {
+            xFirst = true;
+            
+        }
+        else
+        {
+            xFirst = false;
+        }
     }
 
     private void FixedUpdate()

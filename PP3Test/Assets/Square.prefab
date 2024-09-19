@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5986083099478802051}
   - component: {fileID: 3737181228480957860}
   - component: {fileID: 2719060765193714254}
+  - component: {fileID: 7091565608878620315}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -147,3 +148,33 @@ MonoBehaviour:
   LightX: 0
   LightY: 0
   LightLevel: 0
+--- !u!114 &7091565608878620315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5178725302521897212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7e2aa9b8013ad6498939a87c69f089f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Triggered:
+    m_Name: Triggered
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 65c959e0-af99-475f-a066-022157aa3b9f
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 8f043009-e7f1-4d9a-90b1-7fa89751938b
+      m_Path: 
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Triggered
+      m_Flags: 0
+    m_Flags: 0
+  snakeScript: {fileID: 0}
