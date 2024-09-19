@@ -19,7 +19,6 @@ public class Snake : MonoBehaviour
     public List<Transform> _segments;
     public Transform segmentPrefab;
 
-    public float moveSpeed = 5f;
     public Rigidbody2D rb;
     public PlayerControllsTest playerControll;
     public AnotherLightScript LightScript;
@@ -27,9 +26,23 @@ public class Snake : MonoBehaviour
     public GameObject SquarePrefab;
     private bool globalControll = true;
 
+    [Header("gridmovment")]
+    public bool TargetReached = true;
+    private Transform PlayerTransform;
+    public Transform TargetTransform = null;
+    private bool xFirst;
+
+    //[Header("Timer")]
+    //private float timer = 0;
+    //[SerializeField]
+    //private float timeUntilMove = 0.5f;
+
+
     private void Awake()
     {
         playerControll = new PlayerControllsTest();
+        PlayerTransform = transform;
+
     }
     private void OnEnable()
     {
@@ -57,15 +70,20 @@ public class Snake : MonoBehaviour
     {
         _segments = new List<Transform>();
         _segments.Add(this.transform);
+
     }
 
     private void Update()
     {
+        Debug.Log(TargetTransform.position);
+
+
+
         if (globalControll == true)
         {
             if (Up.triggered)
             {
-                Debug.Log("going up");
+               
                 _moveDirection = Vector2.up;
             }
             if (Down.triggered)
@@ -94,10 +112,127 @@ public class Snake : MonoBehaviour
                 this.transform.position = Vector3.zero;
                 Food.RandomizePosition();
                 globalControll = true;
+                TargetReached = true;
+                TargetTransform = PlayerTransform;
             }
 
         }
 
+
+        if (globalControll)
+        {
+            if (PlayerTransform.position != TargetTransform.position && TargetReached == false )
+            {
+                if (xFirst)
+                {
+                    if ((Mathf.Abs(PlayerTransform.position.x - TargetTransform.position.x)) > (Mathf.Abs(PlayerTransform.position.y - TargetTransform.position.y)))
+                    {
+
+                        if (PlayerTransform.position.x < TargetTransform.position.x)
+                        {
+
+                            _moveDirection = Vector2.right;
+                        }
+                        else
+                        {
+
+                            _moveDirection = Vector2.left;
+                        }
+                    }
+                    else if ((Mathf.Abs(PlayerTransform.position.x - TargetTransform.position.x)) <= (Mathf.Abs(PlayerTransform.position.y - TargetTransform.position.y)))
+                    {
+                        if (PlayerTransform.position.y < TargetTransform.position.y)
+                        {
+
+                            _moveDirection = Vector2.up;
+
+                        }
+                        else
+                        {
+
+                            _moveDirection = Vector2.down;
+                        }
+                    }
+                }
+
+                else if (!xFirst)
+                {
+                    if ((Mathf.Abs(PlayerTransform.position.x - TargetTransform.position.x)) >= (Mathf.Abs(PlayerTransform.position.y - TargetTransform.position.y)))
+                    {
+
+                        if (PlayerTransform.position.x < TargetTransform.position.x)
+                        {
+
+                            _moveDirection = Vector2.right;
+                        }
+                        else
+                        {
+
+                            _moveDirection = Vector2.left;
+                        }
+                    }
+                    else if ((Mathf.Abs(PlayerTransform.position.x - TargetTransform.position.x)) < (Mathf.Abs(PlayerTransform.position.y - TargetTransform.position.y)))
+                    {
+                        if (PlayerTransform.position.y < TargetTransform.position.y)
+                        {
+
+                            _moveDirection = Vector2.up;
+
+                        }
+                        else
+                        {
+
+                            _moveDirection = Vector2.down;
+                        }
+                    }
+                }
+                
+            }
+
+        }
+
+
+        if (PlayerTransform.position == TargetTransform.position)
+        {
+            TargetReached = true;
+            TargetTransform = PlayerTransform;
+            //Debug.Log("targetReached");
+        }
+
+        //timer += Time.deltaTime;
+        //if (timer >= timeUntilMove)
+        //{
+        //    for (int i = _segments.Count - 1; i > 0; i--)
+        //    {
+        //        _segments[i].position = _segments[i - 1].position;
+        //    }
+
+
+
+        //    this.transform.position = new Vector3(
+        //    Mathf.Round(this.transform.position.x) + _moveDirection.x,
+        //    Mathf.Round(this.transform.position.y) + _moveDirection.y,
+        //    0.0f
+        //    );
+
+        //    timer = 0;
+        //}
+    }
+
+    public void setTransform(Transform GridSquareSelected)
+    {
+        TargetTransform = GridSquareSelected;
+        TargetReached = false;
+        Debug.Log(TargetTransform.position.x);
+        if ((Mathf.Abs(PlayerTransform.position.x - TargetTransform.position.x)) >= (Mathf.Abs(PlayerTransform.position.y - TargetTransform.position.y)))
+        {
+            xFirst = true;
+            
+        }
+        else
+        {
+            xFirst = false;
+        }
     }
 
     private void FixedUpdate()
@@ -113,6 +248,7 @@ public class Snake : MonoBehaviour
             0.0f
             );
     }
+
 
    
 
